@@ -1,0 +1,33 @@
+name: Gamma Levels
+
+on:
+  schedule:
+    # Mon-Fri 12:40 UTC = 13:40 UK summer / 12:40 UK winter = 08:40 New York summer / 07:40 winter
+    - cron: "40 12 * * 1-5"
+  workflow_dispatch:   # "Run workflow" button for a manual run
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build today's levels
+        env:
+          GAMMA_OUT_DIR: docs
+        run: python gex_extract.py
+
+      - name: Publish to the page
+        run: |
+          git config user.name "gamma-levels-bot"
+          git config user.email "gamma-levels-bot@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "Gamma levels $(date -u +%F)"
+          git push
