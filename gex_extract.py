@@ -249,7 +249,7 @@ button{width:100%;padding:10px;border:0;border-radius:8px;background:var(--accen
 details{margin-top:12px}summary{cursor:pointer;color:var(--quiet);font-size:13px}
 pre{white-space:pre-wrap;word-break:break-word;font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;max-height:320px;overflow:auto}
 .steps{margin-top:28px;color:var(--quiet);font-size:14px}.steps li{margin:4px 0}.err{color:var(--put)}
-footer{margin-top:28px;color:var(--quiet);font-size:12px}a{color:var(--accent)}
+footer{margin-top:28px;color:var(--quiet);font-size:12px}.warn{border:1px solid var(--put);border-radius:8px;padding:10px 12px;margin:0 0 20px;font-size:13px}.terms{margin-top:28px;font-size:13px;color:var(--quiet)}.terms h3{font-size:15px;color:var(--ink);margin:14px 0 4px}.terms p{margin:0 0 8px}a{color:var(--accent)}
 """
 
 
@@ -275,10 +275,21 @@ def write_page(results, texts, errors, stamp, day_label):
 <style>{PAGE_CSS}</style></head><body><main>
 <h1>Gamma Levels for ES and NQ</h1>
 <p class="sub">{html.escape(day_label)} &middot; updated {html.escape(stamp)} &middot; CBOE delayed data, naive open-interest model</p>
+<p class="warn"><b>Not financial advice.</b> Educational information only. Futures trading carries a high risk of loss. You alone are responsible for your trades. By using this page you accept the Terms below.</p>
 {errs}<div class="grid">{''.join(cards)}</div>
 <ol class="steps"><li>Click <b>Copy</b> for your chart (NQ block for NQ / MNQ, ES block for ES / MES).</li>
 <li>In TradingView open <b>Gamma Walls and Institutional Bias @MaxMaserati</b> settings.</li>
 <li>Paste into <b>Paste Daily Block</b>, leave the three 90D boxes at 0, click OK.</li></ol>
+<details class="terms"><summary><b>Disclaimer and Terms of Use</b> (please read)</summary>
+<h3>1. Education only, not advice</h3><p>Everything on this page, in the files and in the related TradingView indicator is for educational and informational purposes only. It is not financial, investment, trading, tax or legal advice, and it is not a recommendation or solicitation to buy or sell any security, future or option. The publisher is not a registered investment adviser, broker or financial adviser.</p>
+<h3>2. Risk warning</h3><p>Trading futures and options involves substantial risk of loss and is not suitable for everyone. You can lose more than your initial deposit. Only trade money you can afford to lose. Past performance, including past signals or levels, does not guarantee future results. Hypothetical or simulated results have inherent limits: they are prepared with hindsight and do not reflect real trading, slippage, fees or liquidity.</p>
+<h3>3. No warranty on the data</h3><p>Levels are calculated automatically from delayed third-party data with a simplified model. They may be late, incomplete, inaccurate or unavailable at any time, and may differ from other providers. Everything is provided "as is" and "as available", without warranty of any kind, express or implied, including accuracy, completeness, fitness for a particular purpose or uninterrupted availability.</p>
+<h3>4. Your responsibility</h3><p>You are solely responsible for your own trading decisions, risk management, position sizing and results, and for complying with the rules of your broker, prop firm and local laws. Always verify levels yourself before acting on them.</p>
+<h3>5. Limitation of liability</h3><p>To the fullest extent permitted by law, the publisher, Max Maserati Trading University and their affiliates are not liable for any direct, indirect, incidental, consequential or special loss or damage, including trading losses, lost profits or lost data, arising from the use of, or inability to use, this page, its files or the related indicator, even if advised of the possibility of such loss. Nothing in these terms excludes liability that cannot be excluded by law.</p>
+<h3>6. No affiliation</h3><p>This page is independent and is not affiliated with, endorsed or sponsored by Cboe, CME Group, the CFTC, TradingView, GitHub or any exchange or data provider. All trademarks belong to their owners.</p>
+<h3>7. Changes and access</h3><p>The page, the files and these terms may change, pause or stop at any time without notice.</p>
+<h3>8. Acceptance and law</h3><p>By accessing or using this page, its files or the related indicator you agree to these terms. If you do not agree, do not use them. These terms are governed by the laws of England and Wales.</p>
+</details>
 <footer>Educational levels only, not financial advice. Levels are modelled from open interest and can differ from other providers.
 History: <a href="gex_history.csv">gex_history.csv</a></footer>
 </main><script>
