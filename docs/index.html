@@ -1,0 +1,116 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Gamma Levels</title>
+<style>
+:root{--bg:#f7f7f5;--card:#ffffff;--ink:#1c1c1a;--quiet:#6b6b66;--line:#e2e1dc;--accent:#0f766e;--call:#15803d;--put:#b91c1c;--zero:#a16207}
+@media (prefers-color-scheme: dark){:root{--bg:#141413;--card:#1e1e1c;--ink:#ecebe6;--quiet:#9c9b95;--line:#33322f;--accent:#2dd4bf;--call:#4ade80;--put:#f87171;--zero:#facc15}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:980px;margin:0 auto;padding:28px 16px 48px}h1{font-size:24px;margin:0 0 4px}.sub{color:var(--quiet);margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.card h2{font-size:18px;margin:0 0 2px}.card .meta{color:var(--quiet);font-size:13px;margin:0 0 14px}
+table{width:100%;border-collapse:collapse;margin:0 0 14px;font-variant-numeric:tabular-nums}
+td{padding:6px 0;border-bottom:1px solid var(--line)}td:last-child{text-align:right;font-weight:600}
+.call{color:var(--call)}.put{color:var(--put)}.zero{color:var(--zero)}
+button{width:100%;padding:10px;border:0;border-radius:8px;background:var(--accent);color:#fff;font-weight:600;font-size:15px;cursor:pointer}
+@media (prefers-color-scheme: dark){button{color:#0b0b0a}}
+details{margin-top:12px}summary{cursor:pointer;color:var(--quiet);font-size:13px}
+pre{white-space:pre-wrap;word-break:break-word;font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;max-height:320px;overflow:auto}
+.steps{margin-top:28px;color:var(--quiet);font-size:14px}.steps li{margin:4px 0}.err{color:var(--put)}
+footer{margin-top:28px;color:var(--quiet);font-size:12px}a{color:var(--accent)}
+</style></head><body><main>
+<h1>Gamma Levels for ES and NQ</h1>
+<p class="sub">Trading Date 2026-09-28 (Monday) &middot; updated 2026-09-27 18:22 ET &middot; CBOE delayed data, naive open-interest model</p>
+<div class="grid"><section class="card"><h2>ES / MES chart</h2>
+<p class="meta">Index SPX &middot; spot 7743.41 &middot; index prices, the indicator converts to futures</p>
+<table><tr><td>90D Call Wall</td><td class="call">7800</td></tr><tr><td>90D Put Wall</td><td class="put">7500</td></tr><tr><td>90D Zero Gamma</td><td class="zero">7702.78</td></tr><tr><td>Today Call Wall</td><td class="call">7775</td></tr><tr><td>Today Put Wall</td><td class="put">7725</td></tr><tr><td>Today GEX Flip</td><td class="zero">7721.82</td></tr></table>
+<button onclick="copyBlock('ES', this)">Copy ES block for the indicator</button>
+<details><summary>Show the block</summary><pre id="ES">====================================================
+MMM GAMMA LEVELS - ES / MES CHART
+====================================================
+Trading Date 2026-09-28 (Monday)
+Index = SPX
+Updated 2026-09-27 18:22 ET (CBOE delayed data)
+Spot Price = 7743.41
+
+1. 90-Day Walls (Big Picture)
+90D Call Wall = 7800
+90D Put Wall = 7500
+90D Zero Gamma = 7702.78
+Biggest 90D Call Bar Within 10 Percent = 7800
+Biggest 90D Put Bar Within 10 Percent = 7500
+
+2. Today&#x27;s Levels (0DTE, expiry 2026-09-28)
+Today Call Wall = 7775
+Today Put Wall = 7725
+Today GEX Flip = 7721.82
+Today Strikes (Strike : Gamma In Millions Of Dollars)
+7900 : 196.0
+7825 : 321.1
+7820 : 372.3
+7805 : 458.0
+7800 : 555.6
+7780 : 244.0
+7775 : 901.4
+7770 : 517.0
+7760 : 533.6
+7755 : 212.7
+7750 : 358.1
+7725 : -292.9
+7710 : -256.3
+7700 : -191.9
+7590 : -258.2
+7580 : -286.4
+</pre></details>
+<p class="meta" style="margin-top:10px"><a href="latest_ES.txt">latest_ES.txt</a></p></section><section class="card"><h2>NQ / MNQ chart</h2>
+<p class="meta">Index NDX &middot; spot 30608.13 &middot; index prices, the indicator converts to futures</p>
+<table><tr><td>90D Call Wall</td><td class="call">31000</td></tr><tr><td>90D Put Wall</td><td class="put">29500</td></tr><tr><td>90D Zero Gamma</td><td class="zero">29711.83</td></tr><tr><td>Today Call Wall</td><td class="call">30850</td></tr><tr><td>Today Put Wall</td><td class="put">30470</td></tr><tr><td>Today GEX Flip</td><td class="zero">30448.63</td></tr></table>
+<button onclick="copyBlock('NQ', this)">Copy NQ block for the indicator</button>
+<details><summary>Show the block</summary><pre id="NQ">====================================================
+MMM GAMMA LEVELS - NQ / MNQ CHART
+====================================================
+Trading Date 2026-09-28 (Monday)
+Index = NDX
+Updated 2026-09-27 18:22 ET (CBOE delayed data)
+Spot Price = 30608.13
+
+1. 90-Day Walls (Big Picture)
+90D Call Wall = 31000
+90D Put Wall = 29500
+90D Zero Gamma = 29711.83
+Biggest 90D Call Bar Within 10 Percent = 29475
+Biggest 90D Put Bar Within 10 Percent = 29500
+
+2. Today&#x27;s Levels (0DTE, expiry 2026-09-28)
+Today Call Wall = 30850
+Today Put Wall = 30470
+Today GEX Flip = 30448.63
+Today Strikes (Strike : Gamma In Millions Of Dollars)
+31000 : 44.4
+30900 : 23.2
+30850 : 192.1
+30800 : 14.4
+30750 : 10.1
+30700 : 21.4
+30600 : 17.1
+30550 : 16.9
+30520 : 20.2
+30490 : -16.5
+30480 : -16.5
+30470 : -17.5
+30300 : 9.7
+30000 : -14.6
+29975 : 16.0
+29900 : 23.6
+</pre></details>
+<p class="meta" style="margin-top:10px"><a href="latest_NQ.txt">latest_NQ.txt</a></p></section></div>
+<ol class="steps"><li>Click <b>Copy</b> for your chart (NQ block for NQ / MNQ, ES block for ES / MES).</li>
+<li>In TradingView open <b>Gamma Walls and Institutional Bias @MaxMaserati</b> settings.</li>
+<li>Paste into <b>Paste Daily Block</b>, leave the three 90D boxes at 0, click OK.</li></ol>
+<footer>Educational levels only, not financial advice. Levels are modelled from open interest and can differ from other providers.
+History: <a href="gex_history.csv">gex_history.csv</a></footer>
+</main><script>
+function copyBlock(id, btn) {
+  const t = document.getElementById(id).textContent;
+  navigator.clipboard.writeText(t).then(() => { const o = btn.textContent; btn.textContent = 'Copied'; setTimeout(() => btn.textContent = o, 1500); });
+}
+</script></body></html>
