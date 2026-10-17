@@ -291,7 +291,7 @@ def write_page(results, texts, errors, stamp, day_label):
 <h3>8. Acceptance and law</h3><p>By accessing or using this page, its files or the related indicator you agree to these terms. If you do not agree, do not use them. These terms are governed by the laws of England and Wales.</p>
 </details>
 <footer>Educational levels only, not financial advice. Levels are modelled from open interest and can differ from other providers.
-History: <a href="gex_history.csv">gex_history.csv</a> &middot; <a href="news/">News calendar for the MMM indicators</a></footer>
+History: <a href="gex_history.csv">gex_history.csv</a> &middot; <a href="https://www.maxmaserati.com/news/">News calendar</a> &middot; <a href="https://www.maxmaserati.com/gamma/">This page on maxmaserati.com</a></footer>
 </main><script>
 function copyBlock(id, btn) {{
   const t = document.getElementById(id).textContent;
