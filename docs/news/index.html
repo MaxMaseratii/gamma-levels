@@ -1,0 +1,147 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>MMM News Calendar</title>
+<style>
+:root{--bg:#f7f7f5;--card:#ffffff;--ink:#1c1c1a;--quiet:#6b6b66;--line:#e2e1dc;--accent:#0f766e;--hi:#dc2626;--med:#ea580c;--low:#ca8a04;--gry:#8a8a85}
+@media (prefers-color-scheme: dark){:root{--bg:#141413;--card:#1e1e1c;--ink:#ecebe6;--quiet:#9c9b95;--line:#33322f;--accent:#2dd4bf;--hi:#f87171;--med:#fb923c;--low:#facc15;--gry:#9c9b95}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:980px;margin:0 auto;padding:28px 16px 48px}h1{font-size:24px;margin:0 0 4px}.sub{color:var(--quiet);margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.card h2{font-size:18px;margin:0 0 2px}.card .meta{color:var(--quiet);font-size:13px;margin:0 0 14px}
+fieldset{border:0;margin:0 0 14px;padding:0}legend{font-weight:600;font-size:14px;margin-bottom:6px}
+.opts{display:flex;flex-wrap:wrap;gap:6px 14px}.opts label{display:flex;align-items:center;gap:6px;font-size:14px;cursor:pointer}
+select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);width:100%}
+button{width:100%;padding:10px;border:0;border-radius:8px;background:var(--accent);color:#fff;font-weight:600;font-size:15px;cursor:pointer}
+@media (prefers-color-scheme: dark){button{color:#0b0b0a}}
+pre{white-space:pre;overflow:auto;font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;max-height:340px;margin:12px 0 0}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:14px}
+th{text-align:left;color:var(--quiet);font-weight:600;font-size:12px;padding:4px 6px;border-bottom:1px solid var(--line)}
+td{padding:6px;border-bottom:1px solid var(--line);vertical-align:top}.num{white-space:nowrap}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.H{background:var(--hi)}.M{background:var(--med)}.L{background:var(--low)}.N{background:var(--gry)}
+.day td{background:var(--bg);font-weight:600;font-size:13px}.past td{opacity:.5}
+.wrap{overflow-x:auto}.steps{margin-top:28px;color:var(--quiet);font-size:14px}.steps li{margin:4px 0}.err{color:var(--hi)}
+footer{margin-top:28px;color:var(--quiet);font-size:12px}.warn{border:1px solid var(--hi);border-radius:8px;padding:10px 12px;margin:0 0 20px;font-size:13px}
+.terms{margin-top:28px;font-size:13px;color:var(--quiet)}.terms h3{font-size:15px;color:var(--ink);margin:14px 0 4px}.terms p{margin:0 0 8px}a{color:var(--accent)}
+</style></head><body><main>
+<h1>News Calendar for the MMM Indicators</h1>
+<p class="sub" id="sub">Loading the calendar&hellip;</p>
+<p class="warn"><b>Not financial advice.</b> Educational information only. Futures trading carries a high risk of loss. You alone are responsible for your trades. By using this page you accept the Terms below.</p>
+<p class="err" id="err" hidden></p>
+<div class="grid">
+<section class="card"><h2>1. Pick your news</h2>
+<p class="meta">All times are New York time, the time the indicators use.</p>
+<fieldset><legend>Impact</legend><div class="opts">
+<label><input type="checkbox" class="imp" value="H" checked>🔴 High</label>
+<label><input type="checkbox" class="imp" value="M">🟠 Medium</label>
+<label><input type="checkbox" class="imp" value="L">🟡 Low</label>
+<label><input type="checkbox" class="imp" value="N">⚪ Holiday</label></div></fieldset>
+<fieldset><legend>Currency</legend><div class="opts" id="curs"></div></fieldset>
+<fieldset><legend>Period</legend><select id="range">
+<option value="week" selected>This week</option>
+<option value="ahead">From today on</option>
+<option value="all">Everything saved (for backtests)</option></select></fieldset>
+<fieldset><legend>Options</legend><div class="opts">
+<label><input type="checkbox" id="base" checked>Add the 2026&ndash;2027 NFP / CPI / FOMC list</label>
+<label><input type="checkbox" id="merge" checked>One line per time (CPI &amp; Core CPI)</label></div></fieldset>
+</section>
+<section class="card"><h2>2. Copy the block</h2>
+<p class="meta" id="count">&nbsp;</p>
+<button id="copy">Copy the block for the indicator</button>
+<pre id="out"></pre>
+<p class="meta" style="margin-top:10px">Files: <a href="latest_USD_high.txt">latest_USD_high.txt</a> &middot; <a href="latest_USD_all.txt">latest_USD_all.txt</a> &middot; <a href="history_USD_high.txt">history_USD_high.txt</a> &middot; <a href="news_history.csv">news_history.csv</a></p>
+</section></div>
+<ol class="steps">
+<li>Pick the impact, the currency and the period, then click <b>Copy</b>.</li>
+<li>In TradingView open the settings of <b>MMM Pro</b>, <b>MMM Concepts Pro+</b> or <b>MMM Order Flow Suite</b>, group <b>News</b>.</li>
+<li>Click in the <b>News Calendar</b> box, select everything (Ctrl + A / Cmd + A), paste, click OK.</li>
+<li>Turn on the same impacts in the indicator (🔴 High, 🟠 Medium&hellip;). The indicator only draws the ones that are switched on.</li></ol>
+<section class="card" style="margin-top:20px"><h2>This week</h2>
+<p class="meta" id="weekmeta">&nbsp;</p>
+<div class="wrap"><table><thead><tr><th>Time NY</th><th>Cur</th><th>Event</th><th>Forecast</th><th>Previous</th></tr></thead><tbody id="tbl"></tbody></table></div></section>
+<details class="terms"><summary><b>Disclaimer and Terms of Use</b> (please read)</summary>
+<h3>1. Education only, not advice</h3><p>Everything on this page, in the files and in the related TradingView indicators is for educational and informational purposes only. It is not financial, investment, trading, tax or legal advice, and it is not a recommendation or solicitation to buy or sell any security, future or option. The publisher is not a registered investment adviser, broker or financial adviser.</p>
+<h3>2. Risk warning</h3><p>Trading futures and options involves substantial risk of loss and is not suitable for everyone. You can lose more than your initial deposit. Only trade money you can afford to lose. News releases can cause fast moves, gaps and slippage.</p>
+<h3>3. No warranty on the data</h3><p>The calendar is collected automatically from a free third-party feed. Times, impacts and events may be late, wrong, moved or missing. Everything is provided "as is" and "as available", without warranty of any kind. Always check the official release schedule before you trade.</p>
+<h3>4. Your responsibility</h3><p>You are solely responsible for your own trading decisions, risk management, position sizing and results, and for complying with the rules of your broker, prop firm and local laws.</p>
+<h3>5. Limitation of liability</h3><p>To the fullest extent permitted by law, the publisher, Max Maserati Trading University and their affiliates are not liable for any loss or damage, including trading losses, lost profits or lost data, arising from the use of, or inability to use, this page, its files or the related indicators. Nothing in these terms excludes liability that cannot be excluded by law.</p>
+<h3>6. No affiliation</h3><p>This page is independent and is not affiliated with, endorsed or sponsored by Forex Factory, TradingView, GitHub, any exchange or any government agency. All trademarks belong to their owners.</p>
+<h3>7. Changes and access</h3><p>The page, the files and these terms may change, pause or stop at any time without notice.</p>
+<h3>8. Acceptance and law</h3><p>By accessing or using this page, its files or the related indicators you agree to these terms. If you do not agree, do not use them. These terms are governed by the laws of England and Wales.</p>
+</details>
+<footer>Calendar data: Forex Factory weekly feed, collected twice a day and saved so past weeks stay available. The NFP / CPI / FOMC list comes from the official BLS and Federal Reserve schedules. <a href="../">Gamma Levels</a></footer>
+</main><script>
+const BASE = ["2026-01-09 08:30 USD H NFP", "2026-02-11 08:30 USD H NFP", "2026-03-06 08:30 USD H NFP", "2026-04-03 08:30 USD H NFP", "2026-05-08 08:30 USD H NFP", "2026-06-05 08:30 USD H NFP", "2026-07-02 08:30 USD H NFP", "2026-08-07 08:30 USD H NFP", "2026-09-04 08:30 USD H NFP", "2026-10-02 08:30 USD H NFP", "2026-11-06 08:30 USD H NFP", "2026-12-04 08:30 USD H NFP", "2027-01-08 08:30 USD H NFP", "2027-02-05 08:30 USD H NFP", "2027-03-05 08:30 USD H NFP", "2027-04-02 08:30 USD H NFP", "2027-05-07 08:30 USD H NFP", "2027-06-04 08:30 USD H NFP", "2027-07-02 08:30 USD H NFP", "2027-08-06 08:30 USD H NFP", "2027-09-03 08:30 USD H NFP", "2027-10-08 08:30 USD H NFP", "2027-11-05 08:30 USD H NFP", "2027-12-03 08:30 USD H NFP", "2026-01-13 08:30 USD H CPI", "2026-02-13 08:30 USD H CPI", "2026-03-11 08:30 USD H CPI", "2026-04-10 08:30 USD H CPI", "2026-05-12 08:30 USD H CPI", "2026-06-10 08:30 USD H CPI", "2026-07-14 08:30 USD H CPI", "2026-08-12 08:30 USD H CPI", "2026-09-11 08:30 USD H CPI", "2026-10-14 08:30 USD H CPI", "2026-11-10 08:30 USD H CPI", "2026-12-10 08:30 USD H CPI", "2027-01-13 08:30 USD H CPI", "2027-02-11 08:30 USD H CPI", "2027-03-10 08:30 USD H CPI", "2027-04-13 08:30 USD H CPI", "2027-05-12 08:30 USD H CPI", "2027-06-10 08:30 USD H CPI", "2027-07-14 08:30 USD H CPI", "2027-08-11 08:30 USD H CPI", "2027-09-14 08:30 USD H CPI", "2027-10-14 08:30 USD H CPI", "2027-11-10 08:30 USD H CPI", "2027-12-10 08:30 USD H CPI", "2026-01-28 14:00 USD H FOMC", "2026-01-28 14:30 USD H FOMC PC", "2026-03-18 14:00 USD H FOMC", "2026-03-18 14:30 USD H FOMC PC", "2026-04-29 14:00 USD H FOMC", "2026-04-29 14:30 USD H FOMC PC", "2026-06-17 14:00 USD H FOMC", "2026-06-17 14:30 USD H FOMC PC", "2026-07-29 14:00 USD H FOMC", "2026-07-29 14:30 USD H FOMC PC", "2026-09-16 14:00 USD H FOMC", "2026-09-16 14:30 USD H FOMC PC", "2026-10-28 14:00 USD H FOMC", "2026-10-28 14:30 USD H FOMC PC", "2026-12-09 14:00 USD H FOMC", "2026-12-09 14:30 USD H FOMC PC", "2027-01-27 14:00 USD H FOMC", "2027-01-27 14:30 USD H FOMC PC", "2027-03-17 14:00 USD H FOMC", "2027-03-17 14:30 USD H FOMC PC", "2027-04-28 14:00 USD H FOMC", "2027-04-28 14:30 USD H FOMC PC", "2027-06-09 14:00 USD H FOMC", "2027-06-09 14:30 USD H FOMC PC", "2027-07-28 14:00 USD H FOMC", "2027-07-28 14:30 USD H FOMC PC", "2027-09-15 14:00 USD H FOMC", "2027-09-15 14:30 USD H FOMC PC", "2027-10-27 14:00 USD H FOMC", "2027-10-27 14:30 USD H FOMC PC", "2027-12-08 14:00 USD H FOMC", "2027-12-08 14:30 USD H FOMC PC"];
+const CURS = ["USD","EUR","GBP","JPY","CAD","AUD","NZD","CHF","CNY"];
+const RANK = {H:4,M:3,L:2,N:1};
+let DATA = {events:[]};
+const $ = id => document.getElementById(id);
+$("curs").innerHTML = CURS.map(c => `<label><input type="checkbox" class="cur" value="${c}"${c==="USD"?" checked":""}>${c}</label>`).join("");
+
+function nyToday() {
+  const p = new Intl.DateTimeFormat("en-CA", {timeZone:"America/New_York", year:"numeric", month:"2-digit", day:"2-digit"}).formatToParts(new Date());
+  const g = t => p.find(x => x.type === t).value;
+  return `${g("year")}-${g("month")}-${g("day")}`;
+}
+function baseRows() {
+  return BASE.map(s => { const t = s.split(" "); return {date:t[0], time:t[1], cur:t[2], imp:t[3], title:t.slice(4).join(" "), base:true}; });
+}
+function shortName(t) {
+  return t.replace(/\s+(m\/m|y\/y|q\/q)$/i, "").trim();
+}
+function build() {
+  const imps = [...document.querySelectorAll(".imp:checked")].map(x => x.value);
+  const curs = [...document.querySelectorAll(".cur:checked")].map(x => x.value);
+  const range = $("range").value, merge = $("merge").checked, today = nyToday();
+  let rows = DATA.events.slice();
+  if ($("base").checked) rows = rows.concat(baseRows());
+  rows = rows.filter(r => imps.includes(r.imp) && curs.includes(r.cur));
+  if (range === "week") rows = rows.filter(r => DATA.week_from && r.date >= DATA.week_from && r.date <= DATA.week_to);
+  if (range === "ahead") rows = rows.filter(r => r.date >= today);
+  const seen = new Map();
+  for (const r of rows) {
+    const k = r.date + " " + r.time + " " + r.cur + (merge ? "" : " " + r.title);
+    const nm = merge ? shortName(r.title) : r.title;
+    if (!seen.has(k)) seen.set(k, {date:r.date, time:r.time, cur:r.cur, imp:r.imp, names:[nm]});
+    else {
+      const o = seen.get(k);
+      if (RANK[r.imp] > RANK[o.imp]) o.imp = r.imp;
+      if (!o.names.includes(nm)) o.names.push(nm);
+    }
+  }
+  const out = [...seen.values()].sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time))
+    .map(o => `${o.date} ${o.time} ${o.cur} ${o.imp} ${o.names.join(" & ")}`);
+  const txt = out.join("\n");
+  $("out").textContent = txt || "(nothing matches: switch on more impacts, currencies or a longer period)";
+  $("count").textContent = `${out.length} lines · ${txt.length} characters`;
+  return txt;
+}
+function table() {
+  const today = nyToday();
+  const wk = DATA.events.filter(r => DATA.week_from && r.date >= DATA.week_from && r.date <= DATA.week_to);
+  const fmt = d => new Date(d + "T12:00:00Z").toLocaleDateString("en-GB", {weekday:"long", day:"numeric", month:"long", timeZone:"UTC"});
+  let html = "", last = "";
+  for (const r of wk) {
+    if (r.date !== last) { html += `<tr class="day"><td colspan="5">${fmt(r.date)}</td></tr>`; last = r.date; }
+    const esc = s => String(s || "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+    html += `<tr class="${r.date < today ? "past" : ""}"><td class="num">${r.time}</td><td>${esc(r.cur)}</td><td><span class="dot ${r.imp}"></span>${esc(r.title)}</td><td class="num">${esc(r.forecast)}</td><td class="num">${esc(r.previous)}</td></tr>`;
+  }
+  $("tbl").innerHTML = html || `<tr><td colspan="5">No events saved for this week yet.</td></tr>`;
+  $("weekmeta").textContent = DATA.week_from ? `${DATA.week_from} to ${DATA.week_to} · every currency and impact · grey rows = already passed` : "";
+}
+document.querySelectorAll("input,select").forEach(e => e.addEventListener("change", build));
+$("copy").addEventListener("click", () => {
+  const t = build(), b = $("copy");
+  navigator.clipboard.writeText(t).then(() => { const o = b.textContent; b.textContent = "Copied"; setTimeout(() => b.textContent = o, 1500); });
+});
+fetch("news.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+  DATA = d;
+  $("sub").textContent = `Updated ${d.updated} · this week ${d.week_from} to ${d.week_to} · ${d.events.length} events saved`;
+  table(); build();
+}).catch(e => {
+  $("sub").textContent = "Calendar file not found.";
+  $("err").hidden = false;
+  $("err").textContent = "The calendar could not load, so only the NFP / CPI / FOMC list is shown.";
+  table(); build();
+});
+</script></body></html>
