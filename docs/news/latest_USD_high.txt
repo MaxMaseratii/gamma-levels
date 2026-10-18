@@ -1,9 +1,0 @@
-2026-10-14 08:30 USD H CPI m/m
-2026-10-14 08:30 USD H CPI y/y
-2026-10-14 08:30 USD H Core CPI m/m
-2026-10-14 08:30 USD H Core CPI y/y
-2026-10-15 08:30 USD H Core PPI m/m
-2026-10-15 08:30 USD H Core Retail Sales m/m
-2026-10-15 08:30 USD H PPI m/m
-2026-10-15 08:30 USD H Retail Sales m/m
-2026-10-15 23:30 USD H Fed Chairman Warsh Speaks
