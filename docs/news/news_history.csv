@@ -123,7 +123,6 @@ date,time,cur,imp,title,forecast,previous
 2026-10-18,22:00,CNY,L,Retail Sales y/y,0.5%,0.4%
 2026-10-18,22:00,CNY,L,Unemployment Rate,5.3%,5.3%
 2026-10-19,00:30,JPY,L,Tertiary Industry Activity m/m,-0.3%,0.4%
-2026-10-19,02:02,CNY,L,Foreign Direct Investment ytd/y,,-5.3%
 2026-10-19,08:30,CAD,H,CPI m/m,0.2%,-0.1%
 2026-10-19,08:30,CAD,M,Common CPI y/y,2.6%,2.6%
 2026-10-19,08:30,CAD,L,Core CPI m/m,,0.1%
@@ -140,16 +139,17 @@ date,time,cur,imp,title,forecast,previous
 2026-10-20,04:00,EUR,L,Current Account,29.2B,27.6B
 2026-10-20,05:00,EUR,L,German ZEW Economic Sentiment,30.2,34.7
 2026-10-20,05:00,EUR,L,ZEW Economic Sentiment,23.6,25.8
+2026-10-20,05:10,CNY,L,Foreign Direct Investment ytd/y,,-5.3%
 2026-10-20,05:33,GBP,L,10-y Bond Auction,,5.38|3.3
 2026-10-20,08:15,USD,L,ADP Weekly Employment Change,,24.8K
 2026-10-20,08:30,USD,L,Building Permits,1.39M,1.39M
 2026-10-20,08:30,USD,L,Housing Starts,1.30M,1.28M
-2026-10-20,10:00,USD,L,Pending Home Sales m/m,-0.4%,0.3%
+2026-10-20,10:00,USD,L,Pending Home Sales m/m,-0.7%,0.3%
 2026-10-20,10:50,NZD,L,GDT Price Index,,1.2%
 2026-10-20,13:00,GBP,L,MPC Member Greene Speaks,,
 2026-10-20,16:30,USD,L,API Weekly Statistical Bulletin,,
 2026-10-20,18:30,AUD,L,RBA Deputy Gov Hauser Speaks,,
-2026-10-20,19:50,JPY,L,Trade Balance,-0.21T,-0.84T
+2026-10-20,19:50,JPY,L,Trade Balance,-0.26T,-0.84T
 2026-10-20,22:00,NZD,L,Credit Card Spending y/y,,3.5%
 2026-10-21,02:00,GBP,H,CPI y/y,3.4%,3.1%
 2026-10-21,02:00,GBP,L,Core CPI y/y,2.8%,2.6%
