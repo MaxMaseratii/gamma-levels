@@ -1,36 +1,36 @@
 ====================================================
 MMM GAMMA LEVELS - ES / MES CHART
 ====================================================
-Trading Date 2026-10-19 (Monday)
+Trading Date 2026-10-20 (Tuesday)
 Index = SPX
-Updated 2026-10-19 14:49 ET (CBOE delayed data)
-Spot Price = 7696.56
+Updated 2026-10-20 13:28 ET (CBOE delayed data)
+Spot Price = 7713.68
 
 1. 90-Day Walls (Big Picture)
 90D Call Wall = 7900
 90D Put Wall = 7650
-90D Zero Gamma = 7721.9
+90D Zero Gamma = 7717.79
 Biggest 90D Call Bar Within 10 Percent = 7900
 Biggest 90D Put Bar Within 10 Percent = 7650
 
-2. Today's Levels (0DTE, expiry 2026-10-19)
-Today Call Wall = 7705
-Today Put Wall = 7650
-Today GEX Flip = 7694.04
+2. Today's Levels (0DTE, expiry 2026-10-20)
+Today Call Wall = 7730
+Today Put Wall = 7690
+Today GEX Flip = 7712.36
 Today Strikes (Strike : Gamma In Millions Of Dollars)
-7720 : 361.3
-7715 : 218.2
-7710 : 672.5
-7705 : 1453.5
-7700 : 1439.0
-7695 : -1046.9
-7690 : 708.2
-7685 : 1040.3
-7670 : -347.4
-7665 : -195.4
-7660 : -396.9
-7655 : -362.7
-7650 : -1870.8
-7640 : -274.8
-7635 : -217.4
-7630 : -306.4
+7750 : 414.2
+7740 : 722.1
+7735 : 2611.7
+7730 : 2951.8
+7725 : 791.6
+7720 : 657.7
+7710 : -633.1
+7705 : -370.2
+7700 : -1018.2
+7695 : -767.7
+7690 : -1026.4
+7685 : -525.5
+7680 : -635.8
+7675 : -494.7
+7665 : -506.8
+7660 : -573.3

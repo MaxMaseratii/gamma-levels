@@ -1,74 +1,74 @@
 ====================================================
 MMM GAMMA LEVELS - ES / MES CHART
 ====================================================
-Trading Date 2026-10-19 (Monday)
+Trading Date 2026-10-20 (Tuesday)
 Index = SPX
-Updated 2026-10-19 14:49 ET (CBOE delayed data)
-Spot Price = 7696.56
+Updated 2026-10-20 13:28 ET (CBOE delayed data)
+Spot Price = 7713.68
 
 1. 90-Day Walls (Big Picture)
 90D Call Wall = 7900
 90D Put Wall = 7650
-90D Zero Gamma = 7721.9
+90D Zero Gamma = 7717.79
 Biggest 90D Call Bar Within 10 Percent = 7900
 Biggest 90D Put Bar Within 10 Percent = 7650
 
-2. Today's Levels (0DTE, expiry 2026-10-19)
-Today Call Wall = 7705
-Today Put Wall = 7650
-Today GEX Flip = 7694.04
+2. Today's Levels (0DTE, expiry 2026-10-20)
+Today Call Wall = 7730
+Today Put Wall = 7690
+Today GEX Flip = 7712.36
 Today Strikes (Strike : Gamma In Millions Of Dollars)
-7720 : 361.3
-7715 : 218.2
-7710 : 672.5
-7705 : 1453.5
-7700 : 1439.0
-7695 : -1046.9
-7690 : 708.2
-7685 : 1040.3
-7670 : -347.4
-7665 : -195.4
-7660 : -396.9
-7655 : -362.7
-7650 : -1870.8
-7640 : -274.8
-7635 : -217.4
-7630 : -306.4
+7750 : 414.2
+7740 : 722.1
+7735 : 2611.7
+7730 : 2951.8
+7725 : 791.6
+7720 : 657.7
+7710 : -633.1
+7705 : -370.2
+7700 : -1018.2
+7695 : -767.7
+7690 : -1026.4
+7685 : -525.5
+7680 : -635.8
+7675 : -494.7
+7665 : -506.8
+7660 : -573.3
 
 ====================================================
 MMM GAMMA LEVELS - NQ / MNQ CHART
 ====================================================
-Trading Date 2026-10-19 (Monday)
+Trading Date 2026-10-20 (Tuesday)
 Index = NDX
-Updated 2026-10-19 14:49 ET (CBOE delayed data)
-Spot Price = 29529.83
+Updated 2026-10-20 13:28 ET (CBOE delayed data)
+Spot Price = 29544.86
 
 1. 90-Day Walls (Big Picture)
-90D Call Wall = 29520
+90D Call Wall = 29675
 90D Put Wall = 29100
-90D Zero Gamma = 29668.98
-Biggest 90D Call Bar Within 10 Percent = 29520
-Biggest 90D Put Bar Within 10 Percent = 28000
+90D Zero Gamma = 29628.93
+Biggest 90D Call Bar Within 10 Percent = 29675
+Biggest 90D Put Bar Within 10 Percent = 29100
 
-2. Today's Levels (0DTE, expiry 2026-10-19)
-Today Call Wall = 29520
-Today Put Wall = 29540
-Today GEX Flip = 29472.33
+2. Today's Levels (0DTE, expiry 2026-10-20)
+Today Call Wall = 29580
+Today Put Wall = 29480
+Today GEX Flip = 29570.3
 Today Strikes (Strike : Gamma In Millions Of Dollars)
-29710 : 98.4
-29650 : -26.5
-29600 : -56.3
-29580 : -28.6
-29575 : -33.0
-29570 : -26.9
-29540 : -65.4
-29530 : -61.0
-29520 : 1012.7
-29450 : -28.8
-29425 : -34.1
-29400 : -38.5
-29375 : -32.9
-29260 : -36.6
-29230 : -26.9
-29150 : -20.6
+29860 : 45.4
+29750 : 66.0
+29700 : 53.3
+29690 : 43.2
+29660 : 42.2
+29650 : 44.2
+29590 : -34.6
+29580 : 66.3
+29575 : 63.0
+29550 : 30.6
+29540 : -86.2
+29510 : -94.7
+29500 : -68.3
+29480 : -99.5
+29400 : -64.2
+29390 : -60.2
 
