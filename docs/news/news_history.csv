@@ -139,13 +139,12 @@ date,time,cur,imp,title,forecast,previous
 2026-10-20,04:00,EUR,L,Current Account,29.2B,27.6B
 2026-10-20,05:00,EUR,L,German ZEW Economic Sentiment,30.2,34.7
 2026-10-20,05:00,EUR,L,ZEW Economic Sentiment,23.6,25.8
-2026-10-20,05:10,CNY,L,Foreign Direct Investment ytd/y,,-5.3%
-2026-10-20,05:33,GBP,L,10-y Bond Auction,,5.38|3.3
+2026-10-20,05:03,GBP,L,10-y Bond Auction,,5.38|3.3
 2026-10-20,08:15,USD,L,ADP Weekly Employment Change,,24.8K
 2026-10-20,08:30,USD,L,Building Permits,1.39M,1.39M
 2026-10-20,08:30,USD,L,Housing Starts,1.30M,1.28M
-2026-10-20,10:00,USD,L,Pending Home Sales m/m,-0.7%,0.3%
-2026-10-20,10:50,NZD,L,GDT Price Index,,1.2%
+2026-10-20,10:00,USD,L,Pending Home Sales m/m,-0.6%,0.3%
+2026-10-20,11:19,NZD,L,GDT Price Index,,1.2%
 2026-10-20,13:00,GBP,L,MPC Member Greene Speaks,,
 2026-10-20,16:30,USD,L,API Weekly Statistical Bulletin,,
 2026-10-20,18:30,AUD,L,RBA Deputy Gov Hauser Speaks,,
@@ -155,42 +154,43 @@ date,time,cur,imp,title,forecast,previous
 2026-10-21,02:00,GBP,L,Core CPI y/y,2.8%,2.6%
 2026-10-21,02:00,GBP,L,PPI Input m/m,1.3%,0.3%
 2026-10-21,02:00,GBP,L,PPI Output m/m,0.7%,0.7%
-2026-10-21,02:00,GBP,L,Public Sector Net Borrowing,23.9B,18.3B
+2026-10-21,02:00,GBP,L,Public Sector Net Borrowing,23.8B,18.3B
 2026-10-21,02:00,GBP,L,RPI y/y,3.9%,3.4%
 2026-10-21,03:15,EUR,L,German Buba President Nagel Speaks,,
-2026-10-21,04:30,GBP,L,HPI y/y,1.7%,1.4%
+2026-10-21,04:30,GBP,L,HPI y/y,1.2%,1.4%
+2026-10-21,05:10,CNY,L,Foreign Direct Investment ytd/y,,-5.3%
 2026-10-21,06:00,EUR,L,German Buba Monthly Report,,
 2026-10-21,09:00,GBP,M,BOE Gov Bailey Speaks,,
-2026-10-21,10:30,USD,L,Crude Oil Inventories,,-8.6M
+2026-10-21,10:30,USD,L,Crude Oil Inventories,-0.1M,-8.6M
 2026-10-21,17:45,NZD,H,CPI q/q,0.8%,1.5%
 2026-10-22,03:30,CHF,L,Summary of Monetary Policy Discussions,,
 2026-10-22,06:00,GBP,L,CBI Industrial Order Expectations,-20,-9
-2026-10-22,08:30,CAD,L,IPPI m/m,0.7%,1.3%
+2026-10-22,08:30,CAD,L,IPPI m/m,0.9%,1.3%
 2026-10-22,08:30,CAD,L,NHPI m/m,-0.1%,-0.1%
-2026-10-22,08:30,CAD,L,RMPI m/m,0.1%,3.1%
+2026-10-22,08:30,CAD,L,RMPI m/m,3.1%,3.1%
 2026-10-22,08:30,USD,M,Unemployment Claims,200K,199K
 2026-10-22,10:00,EUR,L,Consumer Confidence,-17,-17
-2026-10-22,10:00,USD,L,CB Leading Index m/m,-0.2%,-0.1%
-2026-10-22,10:30,USD,L,Natural Gas Storage,,67B
+2026-10-22,10:00,USD,L,CB Leading Index m/m,-0.1%,-0.1%
+2026-10-22,10:30,USD,L,Natural Gas Storage,83B,67B
 2026-10-22,18:00,AUD,L,Flash Manufacturing PMI,,49.3
 2026-10-22,18:00,AUD,L,Flash Services PMI,,51.4
 2026-10-22,19:01,GBP,L,GfK Consumer Confidence,-14,-13
 2026-10-22,19:30,JPY,L,National Core CPI y/y,2.1%,1.7%
 2026-10-22,20:30,JPY,L,Flash Manufacturing PMI,54.5,54.1
-2026-10-23,02:00,GBP,M,Retail Sales m/m,-0.2%,0.5%
-2026-10-23,03:15,EUR,M,French Flash Manufacturing PMI,50.6,50.3
-2026-10-23,03:15,EUR,M,French Flash Services PMI,50.8,51.4
+2026-10-23,02:00,GBP,M,Retail Sales m/m,-0.1%,0.5%
+2026-10-23,03:15,EUR,M,French Flash Manufacturing PMI,50.5,50.3
+2026-10-23,03:15,EUR,M,French Flash Services PMI,50.7,51.4
 2026-10-23,03:30,EUR,M,German Flash Manufacturing PMI,53.5,53.8
-2026-10-23,03:30,EUR,M,German Flash Services PMI,52.6,52.9
+2026-10-23,03:30,EUR,M,German Flash Services PMI,52.5,52.9
 2026-10-23,04:00,EUR,L,Flash Manufacturing PMI,52.7,52.7
 2026-10-23,04:00,EUR,L,Flash Services PMI,52.6,53.0
 2026-10-23,04:30,GBP,M,Flash Manufacturing PMI,51.8,52.0
 2026-10-23,04:30,GBP,M,Flash Services PMI,51.8,51.7
 2026-10-23,08:30,CAD,L,Core Retail Sales m/m,1.1%,-0.7%
 2026-10-23,08:30,CAD,L,Retail Sales m/m,1.3%,-0.7%
-2026-10-23,09:00,EUR,L,Belgian NBB Business Climate,-11.5,-12.1
-2026-10-23,09:45,USD,M,Flash Manufacturing PMI,55.5,57.0
-2026-10-23,09:45,USD,M,Flash Services PMI,58.0,58.7
+2026-10-23,09:00,EUR,L,Belgian NBB Business Climate,-11.8,-12.1
+2026-10-23,09:45,USD,M,Flash Manufacturing PMI,55.4,57.0
+2026-10-23,09:45,USD,M,Flash Services PMI,57.8,58.7
 2026-10-23,10:00,USD,M,Revised UoM Consumer Sentiment,46.3,46.3
 2026-10-23,10:00,USD,M,Revised UoM Inflation Expectations,,4.7%
 2026-10-24,21:00,CHF,N,Daylight Saving Time Shift,,
