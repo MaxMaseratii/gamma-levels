@@ -24,3 +24,4 @@
 2026-10-30 09:45 USD L Chicago PMI
 2026-10-30 12:00 USD L FOMC Member Daly Speaks
 2026-10-30 12:30 USD L FOMC Member Musalem Speaks
+2026-10-30 13:30 USD L FOMC Member Logan Speaks

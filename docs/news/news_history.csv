@@ -269,9 +269,9 @@ date,time,cur,imp,title,forecast,previous
 2026-10-29,23:02,JPY,H,BOJ Policy Rate,<1.25%,<1.25%
 2026-10-29,23:02,JPY,H,Monetary Policy Statement,,
 2026-10-30,01:00,JPY,L,Housing Starts y/y,2.7%,6.1%
-2026-10-30,01:30,JPY,H,BOJ Press Conference,,
 2026-10-30,02:30,EUR,L,French Consumer Spending m/m,0.1%,-0.5%
 2026-10-30,02:30,EUR,L,French Flash GDP q/q,0.1%,0.2%
+2026-10-30,02:30,JPY,H,BOJ Press Conference,,
 2026-10-30,03:00,EUR,L,German Import Prices m/m,1.9%,1.0%
 2026-10-30,03:00,GBP,L,Nationwide HPI m/m,-0.2%,-0.2%
 2026-10-30,03:29,EUR,M,German Prelim CPI m/m,0.1%,0.6%
@@ -291,5 +291,6 @@ date,time,cur,imp,title,forecast,previous
 2026-10-30,09:45,USD,L,Chicago PMI,55.8,58.8
 2026-10-30,12:00,USD,L,FOMC Member Daly Speaks,,
 2026-10-30,12:30,USD,L,FOMC Member Musalem Speaks,,
+2026-10-30,13:30,USD,L,FOMC Member Logan Speaks,,
 2026-10-30,21:30,CNY,L,Manufacturing PMI,49.9,50.1
 2026-10-30,21:30,CNY,L,Non-Manufacturing PMI,50.0,50.2
