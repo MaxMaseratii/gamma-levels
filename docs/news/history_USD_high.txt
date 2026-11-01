@@ -12,3 +12,7 @@
 2026-10-28 14:30 USD H FOMC Press Conference
 2026-10-29 08:30 USD H Advance GDP q/q
 2026-10-29 08:30 USD H Core PCE Price Index m/m
+2026-11-03 10:16 USD H Congressional Elections
+2026-11-06 08:30 USD H Average Hourly Earnings m/m
+2026-11-06 08:30 USD H Non-Farm Employment Change
+2026-11-06 08:30 USD H Unemployment Rate
