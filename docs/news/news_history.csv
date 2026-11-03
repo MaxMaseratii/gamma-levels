@@ -325,15 +325,15 @@ date,time,cur,imp,title,forecast,previous
 2026-11-02,23:30,AUD,H,RBA Press Conference,,
 2026-11-03,02:30,CHF,M,CPI m/m,0.0%,0.0%
 2026-11-03,02:45,EUR,L,French Gov Budget Balance,,-159.6B
-2026-11-03,05:33,GBP,L,10-y Bond Auction,,5.42|3.6
+2026-11-03,04:00,USD,L,RCM/TIPP Economic Optimism,46.2,46.8
+2026-11-03,05:02,GBP,L,10-y Bond Auction,,5.42|3.6
 2026-11-03,10:00,USD,L,Factory Orders m/m,1.2%,0.1%
 2026-11-03,10:00,USD,M,JOLTS Job Openings,7.15M,7.08M
-2026-11-03,10:10,USD,L,RCM/TIPP Economic Optimism,46.2,46.8
 2026-11-03,10:15,USD,L,Omdia Total Vehicle Sales,15.8M,16.0M
 2026-11-03,10:16,USD,H,Congressional Elections,,
-2026-11-03,10:50,NZD,L,GDT Price Index,,2.5%
+2026-11-03,10:27,NZD,L,GDT Price Index,,2.5%
 2026-11-03,11:00,CAD,M,BOC Gov Macklem Speaks,,
-2026-11-03,12:00,EUR,L,German Buba President Nagel Speaks,,
+2026-11-03,13:00,EUR,L,German Buba President Nagel Speaks,,
 2026-11-03,16:30,USD,L,API Weekly Statistical Bulletin,,
 2026-11-03,16:45,NZD,H,Employment Change q/q,0.4%,0.5%
 2026-11-03,16:45,NZD,L,Labor Cost Index q/q,0.5%,0.7%
@@ -356,7 +356,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-04,08:30,USD,L,Trade Balance,-107.9B,-105.6B
 2026-11-04,09:45,USD,L,Final Services PMI,57.9,57.9
 2026-11-04,10:00,USD,M,ISM Services PMI,54.8,54.9
-2026-11-04,10:30,USD,L,Crude Oil Inventories,,-1.9M
+2026-11-04,10:30,USD,L,Crude Oil Inventories,-0.1M,-1.9M
 2026-11-04,18:50,JPY,L,Monetary Policy Meeting Minutes,,
 2026-11-04,19:30,AUD,L,Goods Trade Balance,0.94B,0.50B
 2026-11-04,22:35,JPY,L,10-y Bond Auction,,3.10|3.8

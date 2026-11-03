@@ -4,9 +4,9 @@
 2026-11-02 10:00 USD M ISM Manufacturing PMI
 2026-11-02 10:00 USD L ISM Manufacturing Prices
 2026-11-02 14:00 USD L Loan Officer Survey
+2026-11-03 04:00 USD L RCM/TIPP Economic Optimism
 2026-11-03 10:00 USD L Factory Orders m/m
 2026-11-03 10:00 USD M JOLTS Job Openings
-2026-11-03 10:10 USD L RCM/TIPP Economic Optimism
 2026-11-03 10:15 USD L Omdia Total Vehicle Sales
 2026-11-03 10:16 USD H Congressional Elections
 2026-11-03 16:30 USD L API Weekly Statistical Bulletin
