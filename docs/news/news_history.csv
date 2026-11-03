@@ -327,9 +327,9 @@ date,time,cur,imp,title,forecast,previous
 2026-11-03,02:45,EUR,L,French Gov Budget Balance,,-159.6B
 2026-11-03,05:33,GBP,L,10-y Bond Auction,,5.42|3.6
 2026-11-03,10:00,USD,L,Factory Orders m/m,1.2%,0.1%
-2026-11-03,10:00,USD,M,JOLTS Job Openings,7.11M,7.08M
+2026-11-03,10:00,USD,M,JOLTS Job Openings,7.15M,7.08M
 2026-11-03,10:10,USD,L,RCM/TIPP Economic Optimism,46.2,46.8
-2026-11-03,10:15,USD,L,Omdia Total Vehicle Sales,15.9M,16.0M
+2026-11-03,10:15,USD,L,Omdia Total Vehicle Sales,15.8M,16.0M
 2026-11-03,10:16,USD,H,Congressional Elections,,
 2026-11-03,10:50,NZD,L,GDT Price Index,,2.5%
 2026-11-03,11:00,CAD,M,BOC Gov Macklem Speaks,,
@@ -341,32 +341,32 @@ date,time,cur,imp,title,forecast,previous
 2026-11-03,18:50,JPY,L,Monetary Base y/y,-14.0%,-15.2%
 2026-11-03,19:00,NZD,L,ANZ Commodity Prices m/m,,0.6%
 2026-11-03,19:30,AUD,L,Household Spending m/m,0.2%,0.0%
-2026-11-03,20:45,CNY,L,RatingDog Services PMI,51.5,51.6
-2026-11-04,03:00,EUR,L,Spanish Unemployment Change,25.3K,23.6K
-2026-11-04,03:15,EUR,L,Spanish Services PMI,57.5,58.3
-2026-11-04,03:45,EUR,L,Italian Services PMI,51.0,51.7
+2026-11-03,20:45,CNY,L,RatingDog Services PMI,51.7,51.6
+2026-11-04,03:00,EUR,L,Spanish Unemployment Change,18.7K,23.6K
+2026-11-04,03:15,EUR,L,Spanish Services PMI,57.6,58.3
+2026-11-04,03:45,EUR,L,Italian Services PMI,51.4,51.7
 2026-11-04,03:50,EUR,L,French Final Services PMI,48.4,48.4
 2026-11-04,03:55,EUR,L,German Final Services PMI,51.7,51.7
 2026-11-04,04:00,EUR,L,Final Services PMI,51.7,51.7
 2026-11-04,04:30,GBP,L,Final Services PMI,53.1,53.1
 2026-11-04,05:00,EUR,M,CPI Flash Estimate y/y,4.0%,3.8%
 2026-11-04,05:00,EUR,M,Core CPI Flash Estimate y/y,2.5%,2.5%
-2026-11-04,08:15,USD,L,ADP Non-Farm Employment Change,68K,90K
-2026-11-04,08:30,CAD,L,Trade Balance,3.8B,4.2B
+2026-11-04,08:15,USD,L,ADP Non-Farm Employment Change,67K,90K
+2026-11-04,08:30,CAD,L,Trade Balance,4.8B,4.2B
 2026-11-04,08:30,USD,L,Trade Balance,-107.9B,-105.6B
 2026-11-04,09:45,USD,L,Final Services PMI,57.9,57.9
-2026-11-04,10:00,USD,M,ISM Services PMI,54.9,54.9
+2026-11-04,10:00,USD,M,ISM Services PMI,54.8,54.9
 2026-11-04,10:30,USD,L,Crude Oil Inventories,,-1.9M
 2026-11-04,18:50,JPY,L,Monetary Policy Meeting Minutes,,
-2026-11-04,19:30,AUD,L,Goods Trade Balance,0.96B,0.50B
+2026-11-04,19:30,AUD,L,Goods Trade Balance,0.94B,0.50B
 2026-11-04,22:35,JPY,L,10-y Bond Auction,,3.10|3.8
 2026-11-05,01:45,AUD,L,RBA Deputy Gov Hauser Speaks,,
-2026-11-05,02:00,EUR,L,German Factory Orders m/m,4.9%,-10.6%
-2026-11-05,02:45,EUR,L,French Industrial Production m/m,0.4%,-0.3%
+2026-11-05,02:00,EUR,L,German Factory Orders m/m,4.6%,-10.6%
+2026-11-05,02:45,EUR,L,French Industrial Production m/m,0.3%,-0.3%
 2026-11-05,03:00,CHF,L,Unemployment Rate,3.1%,3.1%
-2026-11-05,04:00,EUR,L,Italian Retail Sales m/m,0.1%,0.3%
-2026-11-05,04:30,GBP,L,Construction PMI,46.5,46.1
-2026-11-05,05:00,EUR,L,PPI m/m,2.6%,1.9%
+2026-11-05,04:00,EUR,L,Italian Retail Sales m/m,0.0%,0.3%
+2026-11-05,04:30,GBP,L,Construction PMI,46.4,46.1
+2026-11-05,05:00,EUR,L,PPI m/m,2.5%,1.9%
 2026-11-05,05:03,EUR,L,Spanish 10-y Bond Auction,,4.18|1.6
 2026-11-05,05:18,EUR,L,French 10-y Bond Auction,,4.93|2.0
 2026-11-05,05:30,USD,L,Challenger Job Cuts y/y,,-19.9%
@@ -387,7 +387,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-05,13:00,EUR,M,ECB President Lagarde Speaks,,
 2026-11-05,16:00,CAD,M,Annual Budget Release,,
 2026-11-05,18:30,JPY,L,Average Cash Earnings y/y,3.8%,3.8%
-2026-11-06,02:00,EUR,L,German Industrial Production m/m,-0.2%,2.0%
+2026-11-06,02:00,EUR,L,German Industrial Production m/m,0.0%,2.0%
 2026-11-06,02:00,GBP,L,Lloyds HPI m/m,0.0%,0.0%
 2026-11-06,02:45,EUR,L,French Trade Balance,-5.8B,-6.1B
 2026-11-06,03:00,CHF,L,Foreign Currency Reserves,,770B
@@ -396,16 +396,16 @@ date,time,cur,imp,title,forecast,previous
 2026-11-06,05:00,EUR,L,Retail Sales m/m,-0.1%,0.1%
 2026-11-06,06:00,CHF,L,Gov Board Member Tschudin Speaks,,
 2026-11-06,07:15,GBP,L,MPC Member Pill Speaks,,
-2026-11-06,08:30,CAD,H,Employment Change,14.5K,-68.3K
+2026-11-06,08:30,CAD,H,Employment Change,14.6K,-68.3K
 2026-11-06,08:30,CAD,H,Unemployment Rate,6.5%,6.5%
 2026-11-06,08:30,USD,H,Average Hourly Earnings m/m,0.3%,0.1%
-2026-11-06,08:30,USD,H,Non-Farm Employment Change,63K,29K
+2026-11-06,08:30,USD,H,Non-Farm Employment Change,65K,29K
 2026-11-06,08:30,USD,H,Unemployment Rate,4.2%,4.2%
 2026-11-06,09:10,USD,L,FOMC Member Musalem Speaks,,
 2026-11-06,10:00,CAD,M,Ivey PMI,57.7,58.2
-2026-11-06,10:00,USD,M,Prelim UoM Consumer Sentiment,47.8,46.3
+2026-11-06,10:00,USD,M,Prelim UoM Consumer Sentiment,48.1,46.3
 2026-11-06,10:00,USD,M,Prelim UoM Inflation Expectations,,4.7%
 2026-11-06,11:00,JPY,H,BOJ Gov Ueda Speaks,,
 2026-11-06,12:15,USD,L,FOMC Member Bowman Speaks,,
-2026-11-06,15:00,USD,L,Consumer Credit m/m,12.0B,8.3B
+2026-11-06,15:00,USD,L,Consumer Credit m/m,13.4B,8.3B
 2026-11-06,16:45,NZD,H,Parliamentary Elections,,
