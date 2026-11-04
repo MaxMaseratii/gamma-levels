@@ -356,7 +356,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-04,08:30,USD,L,Trade Balance,-107.9B,-105.6B
 2026-11-04,09:45,USD,L,Final Services PMI,57.9,57.9
 2026-11-04,10:00,USD,M,ISM Services PMI,54.8,54.9
-2026-11-04,10:30,USD,L,Crude Oil Inventories,-0.1M,-1.9M
+2026-11-04,10:30,USD,L,Crude Oil Inventories,-1.7M,-1.9M
 2026-11-04,18:50,JPY,L,Monetary Policy Meeting Minutes,,
 2026-11-04,19:30,AUD,L,Goods Trade Balance,0.94B,0.50B
 2026-11-04,22:35,JPY,L,10-y Bond Auction,,3.10|3.8
@@ -382,7 +382,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-05,08:50,USD,L,FOMC Member Hammack Speaks,,
 2026-11-05,09:10,USD,L,FOMC Member Barkin Speaks,,
 2026-11-05,10:30,CAD,M,BOC Gov Macklem Speaks,,
-2026-11-05,10:30,USD,L,Natural Gas Storage,,80B
+2026-11-05,10:30,USD,L,Natural Gas Storage,81B,80B
 2026-11-05,12:45,EUR,L,German Buba President Nagel Speaks,,
 2026-11-05,13:00,EUR,M,ECB President Lagarde Speaks,,
 2026-11-05,16:00,CAD,M,Annual Budget Release,,
