@@ -1,36 +1,36 @@
 ====================================================
 MMM GAMMA LEVELS - NQ / MNQ CHART
 ====================================================
-Trading Date 2026-11-04 (Wednesday)
+Trading Date 2026-11-05 (Thursday)
 Index = NDX
-Updated 2026-11-04 14:58 ET (CBOE delayed data)
-Spot Price = 28496.57
+Updated 2026-11-05 15:13 ET (CBOE delayed data)
+Spot Price = 26991.53
 
 1. 90-Day Walls (Big Picture)
-90D Call Wall = 28525
-90D Put Wall = 27500
-90D Zero Gamma = 28440.2
-Biggest 90D Call Bar Within 10 Percent = 28525
-Biggest 90D Put Bar Within 10 Percent = 27500
+90D Call Wall = 28190
+90D Put Wall = 27000
+90D Zero Gamma = 28246.61
+Biggest 90D Call Bar Within 10 Percent = 29675
+Biggest 90D Put Bar Within 10 Percent = 27000
 
-2. Today's Levels (0DTE, expiry 2026-11-04)
-Today Call Wall = 28525
-Today Put Wall = 28500
-Today GEX Flip = 28350.4
+2. Today's Levels (0DTE, expiry 2026-11-05)
+Today Call Wall = 0
+Today Put Wall = 26800
+Today GEX Flip = 27861.61
 Today Strikes (Strike : Gamma In Millions Of Dollars)
-29000 : 14.9
-28700 : 14.6
-28675 : 29.2
-28650 : 39.0
-28550 : 16.2
-28540 : 14.0
-28525 : 829.3
-28520 : 167.9
-28500 : -23.4
-28475 : 22.4
-28470 : 18.3
-28440 : 14.6
-28430 : 26.8
-28420 : 39.0
-28410 : 17.5
-28270 : -14.1
+27500 : -18.1
+27400 : -21.9
+27330 : -15.8
+27310 : -16.3
+27300 : -68.2
+27270 : -13.1
+27250 : -34.1
+27200 : -52.9
+27100 : -21.9
+27000 : -57.1
+26950 : -15.2
+26925 : -15.2
+26900 : -32.8
+26800 : -115.4
+26700 : -16.3
+26500 : -27.1
