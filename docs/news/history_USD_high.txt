@@ -16,3 +16,7 @@
 2026-11-06 08:30 USD H Average Hourly Earnings m/m
 2026-11-06 08:30 USD H Non-Farm Employment Change
 2026-11-06 08:30 USD H Unemployment Rate
+2026-11-10 08:30 USD H CPI m/m
+2026-11-10 08:30 USD H Core CPI m/m
+2026-11-13 08:30 USD H Core PPI m/m
+2026-11-13 08:30 USD H PPI m/m

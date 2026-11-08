@@ -1,34 +1,37 @@
-2026-11-01 02:00 USD N Daylight Saving Time Shift
-2026-11-02 09:45 USD L Final Manufacturing PMI
-2026-11-02 10:00 USD L Construction Spending m/m
-2026-11-02 10:00 USD M ISM Manufacturing PMI
-2026-11-02 10:00 USD L ISM Manufacturing Prices
-2026-11-02 14:00 USD L Loan Officer Survey
-2026-11-03 04:00 USD L RCM/TIPP Economic Optimism
-2026-11-03 10:00 USD L Factory Orders m/m
-2026-11-03 10:00 USD M JOLTS Job Openings
-2026-11-03 10:15 USD L Omdia Total Vehicle Sales
-2026-11-03 10:16 USD H Congressional Elections
-2026-11-03 16:30 USD L API Weekly Statistical Bulletin
-2026-11-04 08:15 USD L ADP Non-Farm Employment Change
-2026-11-04 08:30 USD L Trade Balance
-2026-11-04 09:45 USD L Final Services PMI
-2026-11-04 10:00 USD M ISM Services PMI
-2026-11-04 10:30 USD L Crude Oil Inventories
-2026-11-05 05:30 USD L Challenger Job Cuts y/y
-2026-11-05 08:30 USD L Prelim Nonfarm Productivity q/q
-2026-11-05 08:30 USD L Prelim Unit Labor Costs q/q
-2026-11-05 08:30 USD M Unemployment Claims
-2026-11-05 08:50 USD L FOMC Member Hammack Speaks
-2026-11-05 09:10 USD L FOMC Member Barkin Speaks
-2026-11-05 10:30 USD L Natural Gas Storage
-2026-11-06 04:30 USD L FOMC Member Williams Speaks
-2026-11-06 08:30 USD H Average Hourly Earnings m/m
-2026-11-06 08:30 USD H Non-Farm Employment Change
-2026-11-06 08:30 USD H Unemployment Rate
-2026-11-06 09:10 USD L FOMC Member Musalem Speaks
-2026-11-06 10:00 USD M Prelim UoM Consumer Sentiment
-2026-11-06 10:00 USD M Prelim UoM Inflation Expectations
-2026-11-06 12:15 USD L FOMC Member Bowman Speaks
-2026-11-06 13:00 USD L FOMC Member Daly Speaks
-2026-11-06 15:00 USD L Consumer Credit m/m
+2026-11-09 08:40 USD L FOMC Member Bowman Speaks
+2026-11-09 10:00 USD L FOMC Member Goolsbee Speaks
+2026-11-09 10:00 USD L Final Wholesale Inventories m/m
+2026-11-09 12:15 USD L FOMC Member Barkin Speaks
+2026-11-10 04:00 USD M FOMC Member Waller Speaks
+2026-11-10 06:00 USD L NFIB Small Business Index
+2026-11-10 08:15 USD L ADP Weekly Employment Change
+2026-11-10 08:16 USD L ADP Weekly Employment Change
+2026-11-10 08:30 USD H CPI m/m
+2026-11-10 08:30 USD H Core CPI m/m
+2026-11-10 10:50 USD L FOMC Member Logan Speaks
+2026-11-10 13:01 USD L 10-y Bond Auction
+2026-11-10 13:30 USD L FOMC Member Schmid Speaks
+2026-11-10 15:30 USD L FOMC Member Bowman Speaks
+2026-11-10 16:30 USD L API Weekly Statistical Bulletin
+2026-11-10 18:30 USD L FOMC Member Bowman Speaks
+2026-11-10 18:30 USD L FOMC Member Paulson Speaks
+2026-11-11 08:00 USD N Bank Holiday
+2026-11-12 08:30 USD M Unemployment Claims
+2026-11-12 09:00 USD L FOMC Member Hammack Speaks
+2026-11-12 10:00 USD L Existing Home Sales
+2026-11-12 10:00 USD L FOMC Member Barr Speaks
+2026-11-12 10:00 USD L Mortgage Delinquencies
+2026-11-12 11:30 USD L FOMC Member Goolsbee Speaks
+2026-11-12 12:00 USD L Crude Oil Inventories
+2026-11-12 13:01 USD L 30-y Bond Auction
+2026-11-12 13:10 USD L FOMC Member Daly Speaks
+2026-11-12 13:30 USD L FOMC Member Schmid Speaks
+2026-11-12 14:00 USD L Federal Budget Balance
+2026-11-12 18:30 USD L FOMC Member Williams Speaks
+2026-11-13 08:30 USD H Core PPI m/m
+2026-11-13 08:30 USD H PPI m/m
+2026-11-13 09:10 USD L FOMC Member Collins Speaks
+2026-11-13 10:30 USD L Natural Gas Storage
+2026-11-13 10:50 USD L FOMC Member Bowman Speaks
+2026-11-13 12:00 USD L FOMC Member Daly Speaks
+2026-11-13 19:00 USD L FOMC Member Jefferson Speaks
