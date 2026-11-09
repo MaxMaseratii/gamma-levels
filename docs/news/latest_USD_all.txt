@@ -16,12 +16,12 @@
 2026-11-10 18:30 USD L FOMC Member Bowman Speaks
 2026-11-10 18:30 USD L FOMC Member Paulson Speaks
 2026-11-11 08:00 USD N Bank Holiday
+2026-11-12 08:30 USD L FOMC Member Hammack Speaks
 2026-11-12 08:30 USD M Unemployment Claims
-2026-11-12 09:00 USD L FOMC Member Hammack Speaks
 2026-11-12 10:00 USD L Existing Home Sales
 2026-11-12 10:00 USD L FOMC Member Barr Speaks
 2026-11-12 10:00 USD L Mortgage Delinquencies
-2026-11-12 11:30 USD L FOMC Member Goolsbee Speaks
+2026-11-12 11:15 USD L FOMC Member Goolsbee Speaks
 2026-11-12 12:00 USD L Crude Oil Inventories
 2026-11-12 13:01 USD L 30-y Bond Auction
 2026-11-12 13:10 USD L FOMC Member Daly Speaks
