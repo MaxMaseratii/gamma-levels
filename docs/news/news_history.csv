@@ -431,8 +431,8 @@ date,time,cur,imp,title,forecast,previous
 2026-11-09,18:50,JPY,L,Current Account,2.81T,2.98T
 2026-11-09,19:01,GBP,L,BRC Retail Sales Monitor y/y,1.2%,1.0%
 2026-11-09,19:30,AUD,L,NAB Business Confidence,,-13
-2026-11-09,22:03,CNY,L,Trade Balance,855B,906B
-2026-11-09,22:04,CNY,L,USD-Denominated Trade Balance,126.5B,133.5B
+2026-11-09,21:32,CNY,L,USD-Denominated Trade Balance,126.5B,133.5B
+2026-11-09,21:33,CNY,L,Trade Balance,855B,906B
 2026-11-09,22:35,JPY,L,30-y Bond Auction,,4.11|3.9
 2026-11-10,00:00,JPY,L,Economy Watchers Sentiment,47.1,47.0
 2026-11-10,03:30,GBP,L,MPC Member Breeden Speaks,,
@@ -482,7 +482,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-12,08:30,CAD,L,Building Permits m/m,-4.0%,8.8%
 2026-11-12,08:30,USD,L,FOMC Member Hammack Speaks,,
 2026-11-12,08:30,USD,M,Unemployment Claims,194K,189K
-2026-11-12,10:00,USD,L,Existing Home Sales,3.86M,3.99M
+2026-11-12,10:00,USD,L,Existing Home Sales,3.89M,3.99M
 2026-11-12,10:00,USD,L,FOMC Member Barr Speaks,,
 2026-11-12,10:00,USD,L,Mortgage Delinquencies,,4.37%
 2026-11-12,10:30,AUD,L,CB Leading Index m/m,,-0.3%
@@ -492,14 +492,14 @@ date,time,cur,imp,title,forecast,previous
 2026-11-12,13:01,USD,L,30-y Bond Auction,,5.62|2.5
 2026-11-12,13:10,USD,L,FOMC Member Daly Speaks,,
 2026-11-12,13:30,USD,L,FOMC Member Schmid Speaks,,
-2026-11-12,14:00,USD,L,Federal Budget Balance,,-26.9B
+2026-11-12,14:00,USD,L,Federal Budget Balance,-286.3B,-26.9B
 2026-11-12,14:30,EUR,M,ECB President Lagarde Speaks,,
 2026-11-12,16:30,NZD,L,BusinessNZ Manufacturing Index,,56.5
 2026-11-12,18:30,USD,L,FOMC Member Williams Speaks,,
 2026-11-13,02:00,EUR,L,German WPI m/m,0.4%,1.9%
 2026-11-13,02:30,CHF,L,PPI m/m,0.2%,0.3%
 2026-11-13,02:45,EUR,L,French Final CPI m/m,0.4%,0.4%
-2026-11-13,04:00,EUR,L,Italian Trade Balance,1.85B,1.77B
+2026-11-13,04:00,EUR,L,Italian Trade Balance,2.84B,1.77B
 2026-11-13,05:00,EUR,L,Flash Employment Change q/q,0.2%,0.1%
 2026-11-13,05:00,EUR,L,Flash GDP q/q,0.4%,0.4%
 2026-11-13,05:00,EUR,L,Trade Balance,-4.5B,-6.8B
