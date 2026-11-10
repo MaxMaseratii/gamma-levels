@@ -4,8 +4,8 @@
 2026-11-09 12:15 USD L FOMC Member Barkin Speaks
 2026-11-10 04:00 USD M FOMC Member Waller Speaks
 2026-11-10 06:00 USD L NFIB Small Business Index
+2026-11-10 08:14 USD L ADP Weekly Employment Change
 2026-11-10 08:15 USD L ADP Weekly Employment Change
-2026-11-10 08:16 USD L ADP Weekly Employment Change
 2026-11-10 08:30 USD H CPI m/m
 2026-11-10 08:30 USD H Core CPI m/m
 2026-11-10 10:50 USD L FOMC Member Logan Speaks
