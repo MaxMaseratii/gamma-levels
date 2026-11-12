@@ -20,7 +20,6 @@
 2026-11-12 08:30 USD M Unemployment Claims
 2026-11-12 10:00 USD L Existing Home Sales
 2026-11-12 10:00 USD L FOMC Member Barr Speaks
-2026-11-12 10:00 USD L Mortgage Delinquencies
 2026-11-12 11:15 USD L FOMC Member Goolsbee Speaks
 2026-11-12 12:00 USD L Crude Oil Inventories
 2026-11-12 13:01 USD L 30-y Bond Auction
@@ -32,6 +31,7 @@
 2026-11-13 08:30 USD H PPI m/m
 2026-11-13 09:10 USD L FOMC Member Collins Speaks
 2026-11-13 09:40 USD L FOMC Member Logan Speaks
+2026-11-13 10:15 USD L Mortgage Delinquencies
 2026-11-13 10:30 USD L Natural Gas Storage
 2026-11-13 10:50 USD L FOMC Member Bowman Speaks
 2026-11-13 12:00 USD L FOMC Member Daly Speaks

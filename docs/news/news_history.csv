@@ -477,14 +477,11 @@ date,time,cur,imp,title,forecast,previous
 2026-11-12,02:00,GBP,L,Prelim Business Investment q/q,0.4%,1.7%
 2026-11-12,02:00,GBP,M,Prelim GDP q/q,0.7%,0.5%
 2026-11-12,04:00,EUR,L,ECB Economic Bulletin,,
-2026-11-12,04:03,CNY,L,M2 Money Supply y/y,7.2%,7.2%
-2026-11-12,04:03,CNY,L,New Loans,80B,1080B
 2026-11-12,08:30,CAD,L,Building Permits m/m,-4.0%,8.8%
 2026-11-12,08:30,USD,L,FOMC Member Hammack Speaks,,
 2026-11-12,08:30,USD,M,Unemployment Claims,194K,189K
 2026-11-12,10:00,USD,L,Existing Home Sales,3.89M,3.99M
 2026-11-12,10:00,USD,L,FOMC Member Barr Speaks,,
-2026-11-12,10:00,USD,L,Mortgage Delinquencies,,4.37%
 2026-11-12,10:30,AUD,L,CB Leading Index m/m,,-0.3%
 2026-11-12,11:15,USD,L,FOMC Member Goolsbee Speaks,,
 2026-11-12,12:00,USD,L,Crude Oil Inventories,-0.6M,-0.9M
@@ -503,6 +500,8 @@ date,time,cur,imp,title,forecast,previous
 2026-11-13,05:00,EUR,L,Flash Employment Change q/q,0.2%,0.1%
 2026-11-13,05:00,EUR,L,Flash GDP q/q,0.4%,0.4%
 2026-11-13,05:00,EUR,L,Trade Balance,-4.5B,-6.8B
+2026-11-13,05:03,CNY,L,M2 Money Supply y/y,7.2%,7.2%
+2026-11-13,05:03,CNY,L,New Loans,80B,1080B
 2026-11-13,08:30,CAD,L,Manufacturing Sales m/m,0.1%,1.5%
 2026-11-13,08:30,CAD,L,Wholesale Sales m/m,0.5%,-1.6%
 2026-11-13,08:30,USD,H,Core PPI m/m,0.3%,0.7%
@@ -510,6 +509,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-13,09:10,USD,L,FOMC Member Collins Speaks,,
 2026-11-13,09:30,GBP,L,CB Leading Index m/m,,-0.1%
 2026-11-13,09:40,USD,L,FOMC Member Logan Speaks,,
+2026-11-13,10:15,USD,L,Mortgage Delinquencies,,4.37%
 2026-11-13,10:30,USD,L,Natural Gas Storage,65B,77B
 2026-11-13,10:50,USD,L,FOMC Member Bowman Speaks,,
 2026-11-13,11:00,EUR,L,German Buba President Nagel Speaks,,
