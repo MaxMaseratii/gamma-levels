@@ -496,12 +496,12 @@ date,time,cur,imp,title,forecast,previous
 2026-11-13,02:00,EUR,L,German WPI m/m,0.4%,1.9%
 2026-11-13,02:30,CHF,L,PPI m/m,0.2%,0.3%
 2026-11-13,02:45,EUR,L,French Final CPI m/m,0.4%,0.4%
+2026-11-13,04:00,CNY,L,M2 Money Supply y/y,7.2%,7.2%
+2026-11-13,04:00,CNY,L,New Loans,80B,1080B
 2026-11-13,04:00,EUR,L,Italian Trade Balance,2.84B,1.77B
 2026-11-13,05:00,EUR,L,Flash Employment Change q/q,0.2%,0.1%
 2026-11-13,05:00,EUR,L,Flash GDP q/q,0.4%,0.4%
 2026-11-13,05:00,EUR,L,Trade Balance,-4.5B,-6.8B
-2026-11-13,05:03,CNY,L,M2 Money Supply y/y,7.2%,7.2%
-2026-11-13,05:03,CNY,L,New Loans,80B,1080B
 2026-11-13,08:30,CAD,L,Manufacturing Sales m/m,0.1%,1.5%
 2026-11-13,08:30,CAD,L,Wholesale Sales m/m,0.5%,-1.6%
 2026-11-13,08:30,USD,H,Core PPI m/m,0.3%,0.7%
@@ -509,7 +509,6 @@ date,time,cur,imp,title,forecast,previous
 2026-11-13,09:10,USD,L,FOMC Member Collins Speaks,,
 2026-11-13,09:30,GBP,L,CB Leading Index m/m,,-0.1%
 2026-11-13,09:40,USD,L,FOMC Member Logan Speaks,,
-2026-11-13,10:15,USD,L,Mortgage Delinquencies,,4.37%
 2026-11-13,10:30,USD,L,Natural Gas Storage,65B,77B
 2026-11-13,10:50,USD,L,FOMC Member Bowman Speaks,,
 2026-11-13,11:00,EUR,L,German Buba President Nagel Speaks,,
