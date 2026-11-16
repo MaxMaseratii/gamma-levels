@@ -1,9 +1,11 @@
 2026-11-16 05:00 USD L FOMC Member Barr Speaks
 2026-11-16 08:30 USD L Empire State Manufacturing Index
 2026-11-16 09:05 USD L FOMC Member Williams Speaks
-2026-11-16 09:48 USD L Cleveland Fed Inflation Expectations
+2026-11-16 09:45 USD L Cleveland Fed Inflation Expectations
 2026-11-16 12:00 USD H Fed Chairman Warsh Speaks
 2026-11-16 14:15 USD L FOMC Member Hammack Speaks
+2026-11-16 18:10 USD L FOMC Member Barkin Speaks
+2026-11-16 18:30 USD L FOMC Member Goolsbee Speaks
 2026-11-17 07:30 USD L FOMC Member Musalem Speaks
 2026-11-17 08:15 USD L ADP Weekly Employment Change
 2026-11-17 08:30 USD H Core Retail Sales m/m
@@ -21,6 +23,7 @@
 2026-11-18 08:30 USD L Housing Starts
 2026-11-18 10:00 USD L Pending Home Sales m/m
 2026-11-18 10:30 USD L Crude Oil Inventories
+2026-11-18 12:15 USD L FOMC Member Daly Speaks
 2026-11-18 13:35 USD L FOMC Member Barr Speaks
 2026-11-18 14:00 USD H FOMC Meeting Minutes
 2026-11-18 14:30 USD L FOMC Member Williams Speaks
@@ -29,6 +32,7 @@
 2026-11-19 08:30 USD M Philly Fed Manufacturing Index
 2026-11-19 08:30 USD M Unemployment Claims
 2026-11-19 08:50 USD L FOMC Member Hammack Speaks
+2026-11-19 09:25 USD L FOMC Member Jefferson Speaks
 2026-11-19 10:00 USD L CB Leading Index m/m
 2026-11-19 10:15 USD L Mortgage Delinquencies
 2026-11-19 10:30 USD L Natural Gas Storage
