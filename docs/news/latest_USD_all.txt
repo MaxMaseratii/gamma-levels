@@ -3,6 +3,7 @@
 2026-11-16 09:05 USD L FOMC Member Williams Speaks
 2026-11-16 09:48 USD L Cleveland Fed Inflation Expectations
 2026-11-16 12:00 USD H Fed Chairman Warsh Speaks
+2026-11-16 14:15 USD L FOMC Member Hammack Speaks
 2026-11-17 07:30 USD L FOMC Member Musalem Speaks
 2026-11-17 08:15 USD L ADP Weekly Employment Change
 2026-11-17 08:30 USD H Core Retail Sales m/m
@@ -35,7 +36,7 @@
 2026-11-19 14:15 USD L FOMC Member Barr Speaks
 2026-11-19 16:00 USD L FOMC Member Barkin Speaks
 2026-11-19 18:30 USD L FOMC Member Paulson Speaks
-2026-11-20 08:25 USD M FOMC Member Waller Speaks
+2026-11-20 08:25 USD L FOMC Member Waller Speaks
 2026-11-20 10:00 USD M Revised UoM Consumer Sentiment
 2026-11-20 10:00 USD M Revised UoM Inflation Expectations
 2026-11-20 12:15 USD L FOMC Member Cook Speaks
