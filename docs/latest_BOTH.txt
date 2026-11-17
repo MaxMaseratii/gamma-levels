@@ -1,70 +1,71 @@
 ====================================================
 MMM GAMMA LEVELS - ES / MES CHART
 ====================================================
-Trading Date 2026-11-16 (Monday)
+Trading Date 2026-11-17 (Tuesday)
 Index = SPX
-Updated 2026-11-16 17:27 ET (CBOE delayed data)
-Spot Price = 7416.59
+Updated 2026-11-17 16:16 ET (CBOE delayed data)
+Spot Price = 7340.85
 
 1. 90-Day Walls (Big Picture)
 90D Call Wall = 7700
-90D Put Wall = 7300
-90D Zero Gamma = 7608.33
+90D Put Wall = 7350
+90D Zero Gamma = 7585.08
 Biggest 90D Call Bar Within 10 Percent = 8000
-Biggest 90D Put Bar Within 10 Percent = 7500
+Biggest 90D Put Bar Within 10 Percent = 7350
 
-2. Today's Levels (0DTE, expiry 2026-11-16)
-Today Call Wall = 7460
-Today Put Wall = 7415
+2. Today's Levels (0DTE, expiry 2026-11-17)
+Today Call Wall = 7360
+Today Put Wall = 7340
 Today GEX Flip = 0
 Today Strikes (Strike : Gamma In Millions Of Dollars)
-7465 : 27.8
-7460 : 28.6
-7440 : -987.6
-7435 : -1315.5
-7430 : -2107.9
-7425 : -3487.1
-7420 : -4561.6
-7415 : -5504.3
-7410 : -55.2
-7390 : -129.4
-7385 : -69.5
-7380 : -93.6
-7375 : -145.1
-7370 : -80.4
-7365 : -27.2
-7360 : -140.1
+7370 : 4.0
+7365 : 3.8
+7360 : 60.2
+7355 : -583.6
+7350 : -4834.2
+7345 : -2675.9
+7340 : -5474.0
+7335 : -1024.4
+7330 : -336.9
+7325 : -73.2
+7320 : -46.0
+7315 : -35.8
+7310 : -30.2
 
 ====================================================
 MMM GAMMA LEVELS - NQ / MNQ CHART
 ====================================================
-Trading Date 2026-11-16 (Monday)
+Trading Date 2026-11-17 (Tuesday)
 Index = NDX
-Updated 2026-11-16 17:27 ET (CBOE delayed data)
-Spot Price = 27197.15
+Updated 2026-11-17 16:16 ET (CBOE delayed data)
+Spot Price = 27001.79
 
 1. 90-Day Walls (Big Picture)
-90D Call Wall = 28050
+90D Call Wall = 27675
 90D Put Wall = 27000
-90D Zero Gamma = 28137.33
-Biggest 90D Call Bar Within 10 Percent = 29625
+90D Zero Gamma = 27899.68
+Biggest 90D Call Bar Within 10 Percent = 29000
 Biggest 90D Put Bar Within 10 Percent = 27000
 
-2. Today's Levels (0DTE, expiry 2026-11-16)
-Today Call Wall = 27225
-Today Put Wall = 27200
+2. Today's Levels (0DTE, expiry 2026-11-17)
+Today Call Wall = 27100
+Today Put Wall = 27000
 Today GEX Flip = 0
 Today Strikes (Strike : Gamma In Millions Of Dollars)
-27300 : 0.6
-27260 : 0.1
-27250 : -24.4
-27225 : 3.1
-27220 : -2.7
-27210 : -31.4
-27200 : -650.5
-27190 : -72.8
-27175 : -0.1
-27150 : -4.1
-27125 : -2.2
-27100 : -3.9
+27100 : 1.6
+27040 : 1.1
+27010 : -11.7
+27000 : -528.3
+26990 : -430.8
+26980 : -116.4
+26975 : -53.8
+26970 : -14.6
+26960 : -7.3
+26950 : -5.8
+26920 : -1.1
+26900 : -2.3
+26875 : -1.8
+26870 : -2.5
+26860 : -0.7
+26850 : -2.0
 
