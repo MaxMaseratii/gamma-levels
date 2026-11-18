@@ -572,7 +572,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-17,16:30,USD,L,API Weekly Statistical Bulletin,,
 2026-11-17,16:45,NZD,L,PPI Input q/q,1.5%,2.9%
 2026-11-17,16:45,NZD,L,PPI Output q/q,1.1%,1.6%
-2026-11-17,18:30,AUD,L,MI Leading Index m/m,,-0.1%
+2026-11-17,18:39,AUD,L,MI Leading Index m/m,,-0.1%
 2026-11-17,18:50,JPY,L,Trade Balance,-0.90T,-0.70T
 2026-11-17,19:30,AUD,M,Wage Price Index q/q,1.0%,0.8%
 2026-11-17,21:45,EUR,L,German Buba President Nagel Speaks,,
@@ -592,8 +592,8 @@ date,time,cur,imp,title,forecast,previous
 2026-11-18,08:30,USD,L,Housing Starts,1.25M,1.22M
 2026-11-18,09:25,EUR,M,ECB President Lagarde Speaks,,
 2026-11-18,10:00,GBP,H,BOE Gov Bailey Speaks,,
-2026-11-18,10:00,USD,L,Pending Home Sales m/m,-1.8%,-7.3%
-2026-11-18,10:30,USD,L,Crude Oil Inventories,-0.3M,4.7M
+2026-11-18,10:00,USD,L,Pending Home Sales m/m,-2.0%,-7.3%
+2026-11-18,10:30,USD,L,Crude Oil Inventories,0.4M,4.7M
 2026-11-18,12:15,USD,L,FOMC Member Daly Speaks,,
 2026-11-18,12:30,CAD,L,Gov Council Member Gravelle Speaks,,
 2026-11-18,13:00,NZD,M,RBNZ Gov Breman Speaks,,
@@ -610,16 +610,16 @@ date,time,cur,imp,title,forecast,previous
 2026-11-19,06:00,EUR,L,German Buba Monthly Report,,
 2026-11-19,06:00,GBP,L,CBI Industrial Order Expectations,-29,-32
 2026-11-19,07:15,GBP,L,MPC Member Dhingra Speaks,,
-2026-11-19,08:30,CAD,L,IPPI m/m,1.2%,2.0%
-2026-11-19,08:30,CAD,L,RMPI m/m,2.0%,4.8%
+2026-11-19,08:30,CAD,L,IPPI m/m,0.4%,2.0%
+2026-11-19,08:30,CAD,L,RMPI m/m,0.9%,4.8%
 2026-11-19,08:30,EUR,M,ECB President Lagarde Speaks,,
-2026-11-19,08:30,USD,M,Philly Fed Manufacturing Index,19.2,20.9
-2026-11-19,08:30,USD,M,Unemployment Claims,199K,200K
+2026-11-19,08:30,USD,M,Philly Fed Manufacturing Index,20.6,20.9
+2026-11-19,08:30,USD,M,Unemployment Claims,198K,200K
 2026-11-19,08:50,USD,L,FOMC Member Hammack Speaks,,
 2026-11-19,09:25,USD,L,FOMC Member Jefferson Speaks,,
 2026-11-19,10:00,USD,L,CB Leading Index m/m,0.0%,0.0%
 2026-11-19,10:15,USD,L,Mortgage Delinquencies,,4.37%
-2026-11-19,10:30,USD,L,Natural Gas Storage,,61B
+2026-11-19,10:30,USD,L,Natural Gas Storage,25B,61B
 2026-11-19,12:30,USD,L,FOMC Member Goolsbee Speaks,,
 2026-11-19,14:15,USD,L,FOMC Member Barr Speaks,,
 2026-11-19,16:00,USD,L,FOMC Member Barkin Speaks,,
@@ -638,6 +638,6 @@ date,time,cur,imp,title,forecast,previous
 2026-11-20,08:30,CAD,L,Core Retail Sales m/m,0.7%,1.2%
 2026-11-20,08:30,CAD,L,Retail Sales m/m,0.7%,1.2%
 2026-11-20,10:00,EUR,L,Consumer Confidence,-18,-18
-2026-11-20,10:00,USD,M,Revised UoM Consumer Sentiment,52.1,51.0
+2026-11-20,10:00,USD,M,Revised UoM Consumer Sentiment,51.7,51.0
 2026-11-20,10:00,USD,M,Revised UoM Inflation Expectations,,4.3%
 2026-11-20,12:15,USD,L,FOMC Member Cook Speaks,,
