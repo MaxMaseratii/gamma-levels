@@ -550,6 +550,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-16,23:30,JPY,L,Tertiary Industry Activity m/m,0.1%,-0.1%
 2026-11-17,02:00,GBP,M,Average Earnings Index 3m/y,3.5%,3.7%
 2026-11-17,02:00,GBP,L,Claimant Count Change,25.4K,30.3K
+2026-11-17,02:00,GBP,L,HMRC Payrolls Change,9K,13K
 2026-11-17,02:00,GBP,L,Unemployment Rate,4.7%,4.7%
 2026-11-17,05:00,EUR,L,EU Economic Forecasts,,
 2026-11-17,05:00,EUR,L,German ZEW Economic Sentiment,28.8,28.1
@@ -631,7 +632,6 @@ date,time,cur,imp,title,forecast,previous
 2026-11-20,02:00,EUR,L,German PPI m/m,0.9%,1.9%
 2026-11-20,02:00,GBP,L,Public Sector Net Borrowing,18.0B,24.5B
 2026-11-20,02:00,GBP,M,Retail Sales m/m,0.0%,-0.4%
-2026-11-20,02:02,CNY,L,Foreign Direct Investment ytd/y,,-4.3%
 2026-11-20,03:15,EUR,M,ECB President Lagarde Speaks,,
 2026-11-20,08:00,EUR,L,German Buba President Nagel Speaks,,
 2026-11-20,08:25,USD,L,FOMC Member Waller Speaks,,
@@ -640,4 +640,5 @@ date,time,cur,imp,title,forecast,previous
 2026-11-20,10:00,EUR,L,Consumer Confidence,-18,-18
 2026-11-20,10:00,USD,M,Revised UoM Consumer Sentiment,51.7,51.0
 2026-11-20,10:00,USD,M,Revised UoM Inflation Expectations,,4.3%
+2026-11-20,12:00,USD,M,President Trump Speaks,,
 2026-11-20,12:15,USD,L,FOMC Member Cook Speaks,,

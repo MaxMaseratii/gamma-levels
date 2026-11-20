@@ -43,4 +43,5 @@
 2026-11-20 08:25 USD L FOMC Member Waller Speaks
 2026-11-20 10:00 USD M Revised UoM Consumer Sentiment
 2026-11-20 10:00 USD M Revised UoM Inflation Expectations
+2026-11-20 12:00 USD M President Trump Speaks
 2026-11-20 12:15 USD L FOMC Member Cook Speaks
