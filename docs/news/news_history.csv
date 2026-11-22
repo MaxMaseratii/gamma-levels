@@ -642,3 +642,78 @@ date,time,cur,imp,title,forecast,previous
 2026-11-20,10:00,USD,M,Revised UoM Inflation Expectations,,4.3%
 2026-11-20,12:00,USD,M,President Trump Speaks,,
 2026-11-20,12:15,USD,L,FOMC Member Cook Speaks,,
+2026-11-22,16:45,NZD,L,Core Retail Sales q/q,0.8%,0.7%
+2026-11-22,16:45,NZD,L,Retail Sales q/q,0.5%,-0.5%
+2026-11-22,17:00,AUD,L,Flash Manufacturing PMI,,49.7
+2026-11-22,17:00,AUD,L,Flash Services PMI,,47.8
+2026-11-22,19:00,JPY,N,Bank Holiday,,
+2026-11-23,03:15,EUR,M,French Flash Manufacturing PMI,49.8,49.3
+2026-11-23,03:15,EUR,M,French Flash Services PMI,47.4,48.4
+2026-11-23,03:30,EUR,M,German Flash Manufacturing PMI,54.1,54.2
+2026-11-23,03:30,EUR,M,German Flash Services PMI,52.4,51.7
+2026-11-23,04:00,EUR,L,Flash Manufacturing PMI,52.7,52.4
+2026-11-23,04:00,EUR,L,Flash Services PMI,51.8,51.7
+2026-11-23,04:30,GBP,M,Flash Manufacturing PMI,53.0,52.8
+2026-11-23,04:30,GBP,M,Flash Services PMI,53.0,53.1
+2026-11-23,08:00,GBP,L,MPC Member Pill Speaks,,
+2026-11-23,08:30,CAD,L,Corporate Profits q/q,,
+2026-11-23,09:45,USD,M,Flash Manufacturing PMI,54.5,56.0
+2026-11-23,09:45,USD,M,Flash Services PMI,55.6,57.9
+2026-11-23,16:00,USD,L,FOMC Member Williams Speaks,,
+2026-11-23,19:30,JPY,L,Flash Manufacturing PMI,53.5,53.3
+2026-11-24,02:02,CNY,L,Foreign Direct Investment ytd/y,,-4.3%
+2026-11-24,04:00,EUR,L,German ifo Business Climate,90.6,90.2
+2026-11-24,06:00,GBP,L,CBI Realized Sales,-24,-10
+2026-11-24,07:30,GBP,L,MPC Member Greene Speaks,,
+2026-11-24,08:15,USD,L,ADP Weekly Employment Change,,23.8K
+2026-11-24,09:00,CNY,L,CB Leading Index m/m,,-0.1%
+2026-11-24,09:00,EUR,L,Belgian NBB Business Climate,-9.3,-9.8
+2026-11-24,09:00,USD,L,HPI m/m,0.2%,0.3%
+2026-11-24,09:00,USD,L,S&P/CS Composite-20 HPI y/y,2.7%,2.7%
+2026-11-24,10:00,USD,M,CB Consumer Confidence,92.1,91.7
+2026-11-24,10:00,USD,L,Richmond Manufacturing Index,-3,-2
+2026-11-24,12:25,CAD,M,BOC Gov Macklem Speaks,,
+2026-11-24,16:30,USD,L,API Weekly Statistical Bulletin,,
+2026-11-24,18:50,JPY,L,SPPI y/y,3.6%,3.7%
+2026-11-24,19:30,AUD,H,CPI m/m,0.4%,0.8%
+2026-11-24,19:30,AUD,H,CPI y/y,4.8%,4.3%
+2026-11-24,19:30,AUD,L,Construction Work Done q/q,0.8%,-2.1%
+2026-11-24,19:30,AUD,H,Trimmed Mean CPI m/m,0.3%,0.3%
+2026-11-25,00:00,JPY,L,BOJ Core CPI y/y,2.5%,2.4%
+2026-11-25,02:00,EUR,L,German Final GDP q/q,0.2%,0.2%
+2026-11-25,04:00,CHF,L,UBS Economic Expectations,,-15.3
+2026-11-25,05:42,EUR,L,German 10-y Bond Auction,,3.37|1.1
+2026-11-25,08:30,USD,L,Core Durable Goods Orders m/m,0.5%,0.5%
+2026-11-25,08:30,USD,H,Core PCE Price Index m/m,0.3%,0.3%
+2026-11-25,08:30,USD,L,Durable Goods Orders m/m,0.5%,1.8%
+2026-11-25,08:30,USD,L,Personal Income m/m,0.4%,0.2%
+2026-11-25,08:30,USD,L,Personal Spending m/m,0.4%,0.5%
+2026-11-25,08:30,USD,M,Prelim GDP Price Index q/q,2.3%,2.3%
+2026-11-25,08:30,USD,H,Prelim GDP q/q,3.5%,3.4%
+2026-11-25,08:30,USD,M,Unemployment Claims,201K,203K
+2026-11-25,10:00,USD,L,New Home Sales,649K,676K
+2026-11-25,10:30,USD,L,Crude Oil Inventories,,3.4M
+2026-11-25,12:00,USD,L,Natural Gas Storage,,20B
+2026-11-25,14:00,USD,L,Beige Book,,
+2026-11-25,19:30,AUD,L,Private Capital Expenditure q/q,4.4%,-3.6%
+2026-11-25,19:30,AUD,L,RBA Bulletin,,
+2026-11-26,02:00,EUR,L,German GfK Consumer Climate,-29.4,-30.8
+2026-11-26,04:00,EUR,L,M3 Money Supply y/y,3.5%,3.5%
+2026-11-26,04:00,EUR,L,Private Loans y/y,3.2%,3.1%
+2026-11-26,05:30,GBP,L,BOE Financial Stability Report,,
+2026-11-26,05:30,GBP,L,FPC Meeting Minutes,,
+2026-11-26,05:30,GBP,L,FPC Statement,,
+2026-11-26,07:30,EUR,L,ECB Monetary Policy Meeting Accounts,,
+2026-11-26,08:00,USD,N,Bank Holiday,,
+2026-11-26,18:30,JPY,M,Tokyo Core CPI y/y,2.9%,2.6%
+2026-11-27,02:45,EUR,L,French Consumer Spending m/m,0.2%,-0.5%
+2026-11-27,02:45,EUR,L,French Final Private Payrolls q/q,-0.1%,-0.1%
+2026-11-27,02:45,EUR,L,French Prelim CPI m/m,-0.1%,0.4%
+2026-11-27,02:45,EUR,L,French Prelim GDP q/q,-0.1%,-0.1%
+2026-11-27,03:00,EUR,L,Spanish Flash CPI y/y,4.8%,4.9%
+2026-11-27,03:55,EUR,L,German Unemployment Change,5K,4K
+2026-11-27,05:33,EUR,L,Italian 10-y Bond Auction,,
+2026-11-27,07:40,EUR,L,German Buba President Nagel Speaks,,
+2026-11-27,08:30,CAD,L,Current Account,9.6B,8.8B
+2026-11-27,08:30,USD,L,Goods Trade Balance,-134.4B,-134.9B
+2026-11-27,08:30,USD,L,Prelim Wholesale Inventories m/m,0.7%,0.6%

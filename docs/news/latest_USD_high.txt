@@ -1,4 +1,2 @@
-2026-11-16 12:00 USD H Fed Chairman Warsh Speaks
-2026-11-17 08:30 USD H Core Retail Sales m/m
-2026-11-17 08:30 USD H Retail Sales m/m
-2026-11-18 14:00 USD H FOMC Meeting Minutes
+2026-11-25 08:30 USD H Core PCE Price Index m/m
+2026-11-25 08:30 USD H Prelim GDP q/q
