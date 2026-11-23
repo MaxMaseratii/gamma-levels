@@ -14,7 +14,7 @@
 2026-11-25 08:30 USD L Personal Spending m/m
 2026-11-25 08:30 USD M Prelim GDP Price Index q/q
 2026-11-25 08:30 USD H Prelim GDP q/q
-2026-11-25 08:30 USD M Unemployment Claims
+2026-11-25 08:30 USD L Unemployment Claims
 2026-11-25 10:00 USD L New Home Sales
 2026-11-25 10:30 USD L Crude Oil Inventories
 2026-11-25 12:00 USD L Natural Gas Storage
