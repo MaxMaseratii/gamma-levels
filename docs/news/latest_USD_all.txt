@@ -7,6 +7,7 @@
 2026-11-24 10:00 USD M CB Consumer Confidence
 2026-11-24 10:00 USD L Richmond Manufacturing Index
 2026-11-24 16:30 USD L API Weekly Statistical Bulletin
+2026-11-25 07:25 USD L FOMC Member Bowman Speaks
 2026-11-25 08:30 USD L Core Durable Goods Orders m/m
 2026-11-25 08:30 USD H Core PCE Price Index m/m
 2026-11-25 08:30 USD L Durable Goods Orders m/m

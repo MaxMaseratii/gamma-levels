@@ -682,6 +682,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-25,02:00,EUR,L,German Final GDP q/q,0.2%,0.2%
 2026-11-25,04:00,CHF,L,UBS Economic Expectations,,-15.3
 2026-11-25,05:42,EUR,L,German 10-y Bond Auction,,3.37|1.1
+2026-11-25,07:25,USD,L,FOMC Member Bowman Speaks,,
 2026-11-25,08:30,USD,L,Core Durable Goods Orders m/m,0.5%,0.5%
 2026-11-25,08:30,USD,H,Core PCE Price Index m/m,0.3%,0.3%
 2026-11-25,08:30,USD,L,Durable Goods Orders m/m,0.7%,1.8%
@@ -691,7 +692,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-25,08:30,USD,H,Prelim GDP q/q,3.5%,3.4%
 2026-11-25,08:30,USD,L,Unemployment Claims,201K,203K
 2026-11-25,10:00,USD,L,New Home Sales,650K,676K
-2026-11-25,10:30,USD,L,Crude Oil Inventories,,3.4M
+2026-11-25,10:30,USD,L,Crude Oil Inventories,2.0M,3.4M
 2026-11-25,12:00,USD,L,Natural Gas Storage,-19B,20B
 2026-11-25,14:00,USD,L,Beige Book,,
 2026-11-25,19:30,AUD,L,Private Capital Expenditure q/q,4.5%,-3.6%
@@ -711,7 +712,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-27,02:45,EUR,L,French Prelim GDP q/q,-0.1%,-0.1%
 2026-11-27,03:00,EUR,L,Spanish Flash CPI y/y,4.7%,4.9%
 2026-11-27,03:55,EUR,L,German Unemployment Change,5K,4K
-2026-11-27,05:33,EUR,L,Italian 10-y Bond Auction,,
+2026-11-27,05:33,EUR,L,Italian 10-y Bond Auction,,4.49|1.6
 2026-11-27,07:40,EUR,L,German Buba President Nagel Speaks,,
 2026-11-27,08:30,CAD,L,Current Account,9.5B,8.8B
 2026-11-27,08:30,USD,L,Goods Trade Balance,-135.9B,-134.9B
