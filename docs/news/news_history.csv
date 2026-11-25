@@ -681,7 +681,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-25,00:00,JPY,L,BOJ Core CPI y/y,2.5%,2.4%
 2026-11-25,02:00,EUR,L,German Final GDP q/q,0.2%,0.2%
 2026-11-25,04:00,CHF,L,UBS Economic Expectations,,-15.3
-2026-11-25,05:42,EUR,L,German 10-y Bond Auction,,3.37|1.1
+2026-11-25,05:32,EUR,L,German 10-y Bond Auction,,3.37|1.1
 2026-11-25,07:25,USD,L,FOMC Member Bowman Speaks,,
 2026-11-25,08:30,USD,L,Core Durable Goods Orders m/m,0.5%,0.5%
 2026-11-25,08:30,USD,H,Core PCE Price Index m/m,0.3%,0.3%
@@ -691,6 +691,7 @@ date,time,cur,imp,title,forecast,previous
 2026-11-25,08:30,USD,M,Prelim GDP Price Index q/q,2.3%,2.3%
 2026-11-25,08:30,USD,H,Prelim GDP q/q,3.5%,3.4%
 2026-11-25,08:30,USD,L,Unemployment Claims,201K,203K
+2026-11-25,09:15,GBP,M,Monetary Policy Report Hearings,,
 2026-11-25,10:00,USD,L,New Home Sales,650K,676K
 2026-11-25,10:30,USD,L,Crude Oil Inventories,2.0M,3.4M
 2026-11-25,12:00,USD,L,Natural Gas Storage,-19B,20B
